@@ -17,7 +17,7 @@
     localStorage.setItem(THEME_KEY, theme);
     applyTheme(theme);
     const btn = document.querySelector("[data-theme-toggle]");
-    if (btn) btn.textContent = theme === "light" ? "Mode sombre" : "Mode clair";
+    if (btn) btn.textContent = theme === "light" ? "Dark mode" : "Light mode";
   }
 
   function setActiveNavLink() {
