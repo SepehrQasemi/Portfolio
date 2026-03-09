@@ -19,6 +19,12 @@ Static HTML/CSS/JS portfolio used for the CRM project presentation.
 - CRM repository: https://github.com/SepehrQasemi/crm-food-trading
 - CRM demo: https://web-brown-delta-70.vercel.app
 
+## Bonus scope reflected in Portfolio
+- Dashboard export (CSV/PDF)
+- Real-time notifications
+- BI endpoint exposure
+- Dockerized runtime package
+
 ## Useful folders
 - Reports / documents: `private-material-removed/`
 - CRM screenshots: `assets/screenshots/`
