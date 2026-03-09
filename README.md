@@ -11,6 +11,8 @@ Static HTML/CSS/JS portfolio used for the CRM project presentation.
 - `soutenance.html`: 8-10 minute presentation plan + CRM screenshots
 - `ressources.html`: official references
 - `a-propos.html`: profile and contact
+- `presentation-fr.md`: French portfolio summary
+- `presentation-fa.md`: Persian portfolio summary
 
 ## Linked Deliverables
 - Portfolio repository: https://github.com/SepehrQasemi/Portfolio
@@ -36,3 +38,5 @@ Static HTML/CSS/JS portfolio used for the CRM project presentation.
 ## Language strategy
 - Default language: English
 - Next versions: French and Persian
+- French summary: `presentation-fr.md`
+- Persian summary: `presentation-fa.md`
