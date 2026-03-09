@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   const THEME_KEY = "portfolio_theme";
   const root = document.documentElement;
 
@@ -10,7 +10,6 @@
   function getInitialTheme() {
     const saved = localStorage.getItem(THEME_KEY);
     if (saved === "light" || saved === "dark") return saved;
-    // default: dark
     return "dark";
   }
 
@@ -18,13 +17,12 @@
     localStorage.setItem(THEME_KEY, theme);
     applyTheme(theme);
     const btn = document.querySelector("[data-theme-toggle]");
-    if (btn) btn.textContent = theme === "light" ? "🌙 Mode sombre" : "☀️ Mode clair";
+    if (btn) btn.textContent = theme === "light" ? "Mode sombre" : "Mode clair";
   }
 
-  // Active link highlighting
   function setActiveNavLink() {
     const path = (location.pathname.split("/").pop() || "private-material-removed").toLowerCase();
-    document.querySelectorAll(".nav-links a").forEach(a => {
+    document.querySelectorAll(".nav-links a").forEach((a) => {
       const href = (a.getAttribute("href") || "").toLowerCase();
       if (href === path) a.classList.add("active");
       else a.classList.remove("active");
@@ -42,7 +40,6 @@
         const now = root.getAttribute("data-theme") === "light" ? "light" : "dark";
         setTheme(now === "light" ? "dark" : "light");
       });
-      // sync label
       setTheme(initial);
     }
   });

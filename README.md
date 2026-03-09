@@ -1,31 +1,34 @@
-# Portfolio MIAGE (structure minimale)
+﻿# Portfolio MIAGE
 
-Site statique en **HTML/CSS/JS** (sans framework, sans CMS). Prêt pour GitHub Pages.
+Portfolio statique en HTML/CSS/JS pour la soutenance du projet CRM.
 
-## Lancer en local
-- Ouvre `private-material-removed` dans ton navigateur
-- (Optionnel) avec VS Code : extension “Live Server”
+## Contenu
+- `private-material-removed`: accueil
+- `travaux.html`: TP et exercices
+- `cours.html`: synthese des notions
+- `certifications.html`: progression et projets
+- `projet-final.html`: presentation complete du CRM
+- `soutenance.html`: plan 8-10 min + captures CRM
+- `ressources.html`: references officielles
+- `a-propos.html`: profil et contact
 
-## Déployer sur GitHub Pages
-1. Pousse le code sur GitHub (branche `main`)
-2. GitHub → **Settings** → **Pages**
-3. **Build and deployment**: Deploy from a branch
-4. Branch: `main` / Folder: `/ (root)`
-5. Sauvegarde → tu obtiens l’URL GitHub Pages
+## Livrables relies
+- Repo Portfolio: https://github.com/SepehrQasemi/Portfolio
+- Repo CRM: https://github.com/SepehrQasemi/crm-food-trading
+- Demo CRM: https://web-brown-delta-70.vercel.app
 
-## Où mettre tes fichiers
-- Rapports / CV / slides : `private-material-removed/`
-- Captures d’écran TP : `assets/screenshots/`
-- Images : `assets/img/`
+## Fichiers utiles
+- Rapports / documents: `private-material-removed/`
+- Captures CRM: `assets/screenshots/`
+- Styles: `assets/css/style.css`
+- JS commun: `assets/js/main.js`
 
-## Checklist commits (ne fais pas 1 seul commit final)
-- `Init portfolio structure`
-- `Add navbar + theme toggle`
-- `Add TP Odoo report + screenshots`
-- `Add course notes`
-- `Add CV ATS + LinkedIn`
-- `Finalize content for submission`
+## Usage local
+- Ouvrir `private-material-removed` dans le navigateur
+- Option VS Code: Live Server
 
-## À compléter (obligatoire)
-- Remplacer “(à compléter)” partout
-- Ajouter tes livrables (PDF, images) et mettre les liens à jour
+## Publication GitHub Pages
+1. Push sur `main`
+2. GitHub -> Settings -> Pages
+3. Source: Deploy from a branch
+4. Branch: `main` / folder: `/ (root)`

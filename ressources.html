@@ -1,16 +1,16 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ressources — Portfolio MIAGE</title>
+  <title>Ressources - Portfolio MIAGE</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
 <header class="nav">
   <div class="container nav-inner">
-    <a class="brand" href="private-material-removed" aria-label="Aller à l'accueil">
+    <a class="brand" href="private-material-removed" aria-label="Aller a l'accueil">
       <span class="brand-dot" aria-hidden="true"></span>
       <span>Portfolio MIAGE</span>
     </a>
@@ -22,8 +22,8 @@
       <a href="projet-final.html">Projet final</a>
       <a href="soutenance.html">Soutenance</a>
       <a href="ressources.html">Ressources</a>
-      <a href="a-propos.html">À propos</a>
-      <button class="btn" type="button" data-theme-toggle aria-label="Basculer le thème">☀️ Mode clair</button>
+      <a href="a-propos.html">A propos</a>
+      <button class="btn" type="button" data-theme-toggle aria-label="Basculer le theme">Mode clair</button>
     </nav>
   </div>
 </header>
@@ -31,62 +31,66 @@
 <main class="container">
   <section class="page-head">
     <h1>Ressources</h1>
-    <p>Ressources complémentaires, veille, références.</p>
+    <p>Sources officielles et references utilisees dans la conception du projet CRM.</p>
   </section>
-  
-<section class="section">
-  <div class="section-title">
-    <h3>Veille & liens utiles</h3>
-    <span class="hint">Mets des liens pertinents, variés, et bien nommés.</span>
-  </div>
 
-  <div class="list">
-    <article class="item">
-      <h4><a href="#">Documentation officielle Odoo (à compléter)</a></h4>
-      <p>ERP, modules et bonnes pratiques.</p>
-    </article>
-    <article class="item">
-      <h4><a href="#">GitHub Pages – Documentation (à compléter)</a></h4>
-      <p>Déploiement et configuration.</p>
-    </article>
-    <article class="item">
-      <h4><a href="#">MDN Web Docs (à compléter)</a></h4>
-      <p>HTML, CSS, JavaScript.</p>
-    </article>
-    <article class="item">
-      <h4><a href="#">Guide RGPD / CNIL (à compléter)</a></h4>
-      <p>Données personnelles et conformité.</p>
-    </article>
-    <article class="item">
-      <h4><a href="#">Documentation SQL / PostgreSQL (à compléter)</a></h4>
-      <p>Requêtes et modélisation.</p>
-    </article>
-    <article class="item">
-      <h4><a href="#">UML / MERISE – Méthodes SI (à compléter)</a></h4>
-      <p>Modélisation et processus.</p>
-    </article>
-  </div>
-</section>
+  <section class="section">
+    <div class="section-title">
+      <h3>Documentation technique</h3>
+      <span class="hint">Sources primaires utilisees</span>
+    </div>
+    <div class="list">
+      <article class="item">
+        <h4><a href="https://nextjs.org/docs" target="_blank" rel="noopener">Next.js Documentation</a></h4>
+        <p>Reference framework frontend/API utilise pour le CRM.</p>
+      </article>
+      <article class="item">
+        <h4><a href="https://supabase.com/docs" target="_blank" rel="noopener">Supabase Documentation</a></h4>
+        <p>Auth, PostgreSQL, politiques RLS et bonnes pratiques server-side.</p>
+      </article>
+      <article class="item">
+        <h4><a href="https://developers.brevo.com/docs" target="_blank" rel="noopener">Brevo API Docs</a></h4>
+        <p>Envoi transactionnel et gestion des erreurs provider.</p>
+      </article>
+      <article class="item">
+        <h4><a href="https://vercel.com/docs" target="_blank" rel="noopener">Vercel Documentation</a></h4>
+        <p>Deploiement, environnements Preview/Production, logs de runtime.</p>
+      </article>
+    </div>
+  </section>
 
-<section class="section">
-  <div class="section-title">
-    <h3>Références</h3>
-    <span class="hint">Liste des sources citées (si applicable).</span>
-  </div>
-
-  <div class="list">
-    <article class="item">
-      <h4>(à compléter) Référence</h4>
-      <p>(à compléter) Auteur, titre, date, lien.</p>
-    </article>
-  </div>
-</section>
-
+  <section class="section">
+    <div class="section-title">
+      <h3>References SI et methodes</h3>
+      <span class="hint">Cadre de conception et analyse</span>
+    </div>
+    <div class="list">
+      <article class="item">
+        <h4><a href="https://www.postgresql.org/docs/" target="_blank" rel="noopener">PostgreSQL Documentation</a></h4>
+        <p>Modelisation relationnelle, indexes, contraintes et requetes SQL.</p>
+      </article>
+      <article class="item">
+        <h4><a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL - Bonnes pratiques RGPD</a></h4>
+        <p>Protection des donnees personnelles et conformite minimale.</p>
+      </article>
+      <article class="item">
+        <h4><a href="https://plantuml.com/use-case-diagram" target="_blank" rel="noopener">PlantUML Use Case</a></h4>
+        <p>Modelisation des besoins fonctionnels du projet.</p>
+      </article>
+      <article class="item">
+        <h4><a href="https://mermaid.js.org/" target="_blank" rel="noopener">Mermaid Documentation</a></h4>
+        <p>Representation des schemas d architecture et de donnees.</p>
+      </article>
+    </div>
+  </section>
 </main>
 
 <footer class="footer">
   <div class="container">
-    © <span id="year"></span> (à compléter) — Code source sur GitHub : (lien à compléter)
+    &copy; <span id="year"></span> Sepehr Qasemi - Code source:
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio</a>
+    |
+    <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">CRM</a>
   </div>
 </footer>
 <script>

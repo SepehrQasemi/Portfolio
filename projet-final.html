@@ -1,16 +1,16 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projet final — Portfolio MIAGE</title>
+  <title>Projet final - Portfolio MIAGE</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
 <header class="nav">
   <div class="container nav-inner">
-    <a class="brand" href="private-material-removed" aria-label="Aller à l'accueil">
+    <a class="brand" href="private-material-removed" aria-label="Aller a l'accueil">
       <span class="brand-dot" aria-hidden="true"></span>
       <span>Portfolio MIAGE</span>
     </a>
@@ -22,82 +22,94 @@
       <a href="projet-final.html">Projet final</a>
       <a href="soutenance.html">Soutenance</a>
       <a href="ressources.html">Ressources</a>
-      <a href="a-propos.html">À propos</a>
-      <button class="btn" type="button" data-theme-toggle aria-label="Basculer le thème">☀️ Mode clair</button>
+      <a href="a-propos.html">A propos</a>
+      <button class="btn" type="button" data-theme-toggle aria-label="Basculer le theme">Mode clair</button>
     </nav>
   </div>
 </header>
 
 <main class="container">
   <section class="page-head">
-    <h1>Projet final</h1>
-    <p>Dossier du projet final : description, livrables, liens et captures.</p>
+    <h1>Projet final CRM Food Trading</h1>
+    <p>Conception et livraison d un CRM SaaS pour une entreprise de commerce B2B en matieres premieres alimentaires.</p>
   </section>
-  
-<section class="section">
-  <div class="section-title">
-    <h3>Contexte</h3>
-    <span class="hint">(à compléter) Bref contexte du projet.</span>
-  </div>
 
-  <article class="item">
-    <p>
-      (à compléter) Contexte général du projet.<br/>
-      (à compléter) Problème ou besoin identifié.
-    </p>
-  </article>
-</section>
+  <section class="section">
+    <div class="section-title">
+      <h3>Scenario entreprise</h3>
+      <span class="hint">Contexte reel utilise pour la demonstration</span>
+    </div>
+    <article class="item">
+      <p>
+        L entreprise traite des demandes clients sur des produits comme cacao, poudre de lait et melanges d epices.
+        Le cycle commercial demande une qualification stricte, des devis suivis, puis une relance automatique si le prospect reste inactif.
+        Le CRM centralise les contacts, les entreprises, les leads, les taches et les emails pour fiabiliser ce processus.
+      </p>
+    </article>
+  </section>
 
-<section class="section">
-  <div class="section-title">
-    <h3>Objectifs</h3>
-    <span class="hint">(à compléter) Objectifs principaux.</span>
-  </div>
+  <section class="section">
+    <div class="section-title">
+      <h3>Workflow et pipeline dedies</h3>
+      <span class="hint">Pipeline vente adapte au metier</span>
+    </div>
+    <article class="item">
+      <h4>Pipeline</h4>
+      <ul>
+        <li>Nouveau lead</li>
+        <li>Qualification</li>
+        <li>Echantillon envoye</li>
+        <li>Devis envoye</li>
+        <li>Negociation</li>
+        <li>Gagne</li>
+        <li>Perdu</li>
+      </ul>
+      <p>
+        Le workflow de suivi inclut creation de taches, changement de stage, historisation,
+        et relance automatique a 72h sur le stage "Devis envoye".
+      </p>
+    </article>
+  </section>
 
-  <article class="item">
-    <ul>
-      <li>(à compléter) Objectif 1</li>
-      <li>(à compléter) Objectif 2</li>
-      <li>(à compléter) Objectif 3</li>
-    </ul>
-  </article>
-</section>
+  <section class="section">
+    <div class="section-title">
+      <h3>Outils utilises</h3>
+      <span class="hint">Stack technique et delivery</span>
+    </div>
+    <article class="item">
+      <ul>
+        <li>Next.js 16 (frontend + API routes)</li>
+        <li>Supabase (PostgreSQL, Auth, RLS)</li>
+        <li>Brevo (emails transactionnels)</li>
+        <li>Vercel (deployment)</li>
+        <li>GitHub + GitHub Actions (versioning + CI)</li>
+      </ul>
+    </article>
+  </section>
 
-<section class="section">
-  <div class="section-title">
-    <h3>Outils</h3>
-    <span class="hint">Technologies et outils utilisés.</span>
-  </div>
-
-  <article class="item">
-    <ul>
-      <li>Odoo / CRM (à compléter)</li>
-      <li>GitHub</li>
-      <li>Tableurs / Docs (à compléter)</li>
-    </ul>
-  </article>
-</section>
-
-<section class="section">
-  <div class="section-title">
-    <h3>Livrables</h3>
-    <span class="hint">Liens vers les livrables.</span>
-  </div>
-
-  <article class="item">
-    <ul>
-      <li>Repo : <a href="#">(à compléter)</a></li>
-      <li>Démo : <a href="#">(à compléter)</a></li>
-      <li>Documentation PDF : <a href="private-material-removed/">(à compléter)</a></li>
-    </ul>
-  </article>
-</section>
-
+  <section class="section">
+    <div class="section-title">
+      <h3>Livrables et liens officiels</h3>
+      <span class="hint">Acces direct aux preuves de realisation</span>
+    </div>
+    <article class="item">
+      <ul>
+        <li>Repo CRM: <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">github.com/SepehrQasemi/crm-food-trading</a></li>
+        <li>Repo Portfolio: <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">github.com/SepehrQasemi/Portfolio</a></li>
+        <li>Demo en ligne: <a href="https://web-brown-delta-70.vercel.app" target="_blank" rel="noopener">web-brown-delta-70.vercel.app</a></li>
+        <li>Rapport FR: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/rapport-projet-fr.md" target="_blank" rel="noopener">docs/rapport-projet-fr.md</a></li>
+        <li>Resume FA: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/resume-projet-fa.md" target="_blank" rel="noopener">docs/resume-projet-fa.md</a></li>
+      </ul>
+    </article>
+  </section>
 </main>
 
 <footer class="footer">
   <div class="container">
-    © <span id="year"></span> (à compléter) — Code source sur GitHub : (lien à compléter)
+    &copy; <span id="year"></span> Sepehr Qasemi - Code source:
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio</a>
+    |
+    <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">CRM</a>
   </div>
 </footer>
 <script>

@@ -1,16 +1,16 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Soutenance — Portfolio MIAGE</title>
+  <title>Soutenance - Portfolio MIAGE</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
 <header class="nav">
   <div class="container nav-inner">
-    <a class="brand" href="private-material-removed" aria-label="Aller à l'accueil">
+    <a class="brand" href="private-material-removed" aria-label="Aller a l'accueil">
       <span class="brand-dot" aria-hidden="true"></span>
       <span>Portfolio MIAGE</span>
     </a>
@@ -22,42 +22,91 @@
       <a href="projet-final.html">Projet final</a>
       <a href="soutenance.html">Soutenance</a>
       <a href="ressources.html">Ressources</a>
-      <a href="a-propos.html">À propos</a>
-      <button class="btn" type="button" data-theme-toggle aria-label="Basculer le thème">☀️ Mode clair</button>
+      <a href="a-propos.html">A propos</a>
+      <button class="btn" type="button" data-theme-toggle aria-label="Basculer le theme">Mode clair</button>
     </nav>
   </div>
 </header>
 
 <main class="container">
   <section class="page-head">
-    <h1>Soutenance</h1>
-    <p>Support de présentation et plan de soutenance.</p>
+    <h1>Soutenance (8-10 minutes)</h1>
+    <p>Scenario de presentation oral pour demontrer le CRM de bout en bout.</p>
   </section>
-  
-<section class="section">
-  <div class="section-title">
-    <h3>Diaporama</h3>
-    <span class="hint">Dépose le fichier dans assets/files.</span>
-  </div>
 
-  <article class="item">
-    <h4>Diaporama de soutenance</h4>
-    <p>Lien : <a href="private-material-removed">private-material-removed</a> (à ajouter)</p>
-    <ul>
-      <li>Introduction et présentation rapide</li>
-      <li>Contexte, besoin et objectifs</li>
-      <li>Démarche et solution retenue</li>
-      <li>Résultats / démonstration</li>
-      <li>Conclusion et perspectives</li>
-    </ul>
-  </article>
-</section>
+  <section class="section">
+    <div class="section-title">
+      <h3>Plan minute par minute</h3>
+      <span class="hint">Cadre de presentation court et maitrise</span>
+    </div>
+    <article class="item">
+      <ul>
+        <li><strong>Minute 0-1:</strong> contexte metier et objectifs du CRM</li>
+        <li><strong>Minute 1-2:</strong> architecture technique (Next.js + Supabase + Brevo + Vercel)</li>
+        <li><strong>Minute 2-4:</strong> demo CRUD (company, contact, lead, task)</li>
+        <li><strong>Minute 4-6:</strong> pipeline (stage move, quick move, historique)</li>
+        <li><strong>Minute 6-7:</strong> emails (manuel, test, follow-up dry run)</li>
+        <li><strong>Minute 7-9:</strong> dashboard KPI + funnel + leaderboard</li>
+        <li><strong>Minute 9-10:</strong> limites, next iteration, conclusion</li>
+      </ul>
+    </article>
+  </section>
 
+  <section class="section">
+    <div class="section-title">
+      <h3>Script de demo recommande</h3>
+      <span class="hint">Parcours complet du lead vers Gagne/Perdu</span>
+    </div>
+    <article class="item">
+      <ol>
+        <li>Connexion a l application</li>
+        <li>Creation d une entreprise et d un contact</li>
+        <li>Creation d un lead avec valeur estimee</li>
+        <li>Passage du lead sur plusieurs stages</li>
+        <li>Creation d une tache et passage en done</li>
+        <li>Envoi d un email test sur template</li>
+        <li>Execution follow-up en dry-run puis run reel</li>
+        <li>Lecture des KPI sur 30 jours</li>
+      </ol>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="section-title">
+      <h3>Captures CRM</h3>
+      <span class="hint">Captures reelles de l application pour support oral</span>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <h4>Login</h4>
+        <img src="assets/screenshots/crm-login.png" alt="Capture login CRM" />
+        <p><a href="assets/screenshots/crm-login.png">Voir capture</a></p>
+      </article>
+      <article class="card">
+        <h4>Dashboard KPI</h4>
+        <img src="assets/screenshots/crm-dashboard.png" alt="Capture dashboard CRM" />
+        <p><a href="assets/screenshots/crm-dashboard.png">Voir capture</a></p>
+      </article>
+      <article class="card">
+        <h4>Pipeline Leads</h4>
+        <img src="assets/screenshots/crm-pipeline.png" alt="Capture pipeline CRM" />
+        <p><a href="assets/screenshots/crm-pipeline.png">Voir capture</a></p>
+      </article>
+      <article class="card">
+        <h4>Email automation</h4>
+        <img src="assets/screenshots/crm-emails.png" alt="Capture emails CRM" />
+        <p><a href="assets/screenshots/crm-emails.png">Voir capture</a></p>
+      </article>
+    </div>
+  </section>
 </main>
 
 <footer class="footer">
   <div class="container">
-    © <span id="year"></span> (à compléter) — Code source sur GitHub : (lien à compléter)
+    &copy; <span id="year"></span> Sepehr Qasemi - Code source:
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio</a>
+    |
+    <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">CRM</a>
   </div>
 </footer>
 <script>
