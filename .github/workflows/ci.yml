@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate required pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            "private-material-removed"
+            "travaux.html"
+            "cours.html"
+            "certifications.html"
+            "projet-final.html"
+            "soutenance.html"
+            "ressources.html"
+            "a-propos.html"
+            "README.md"
+          )
+          for f in "${required[@]}"; do
+            if [[ ! -f "$f" ]]; then
+              echo "Missing required file: $f"
+              exit 1
+            fi
+          done
+
+      - name: Check placeholders
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RInE "(completer|TODO|TBD|FIXME|placeholder)" \
+            --include="*.html" --include="*.md" .; then
+            echo "Placeholder text found. Please replace before merge."
+            exit 1
+          fi
