@@ -41,6 +41,12 @@ Static HTML/CSS/JS portfolio used for the CRM project presentation.
 3. Source: Deploy from a branch
 4. Branch: `main` / folder: `/ (root)`
 
+## Repository Governance
+- CI workflow: `.github/workflows/ci.yml` (`lint-build`)
+- Protected branch: `main`
+- Required check before merge: `lint-build`
+- Auto-delete merged branches: enabled
+
 ## Language strategy
 - Default language: English
 - Next versions: French and Persian
