@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Final Project - MIAGE Portfolio</title>
+  <title>Final Project - Sepehr Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -12,7 +12,8 @@
   <div class="container nav-inner">
     <a class="brand" href="index.html" aria-label="Go to homepage">
       <span class="brand-dot" aria-hidden="true"></span>
-      <span>MIAGE Portfolio</span>
+      <span class="brand-main">Sepehr Portfolio</span>
+      <span class="brand-badge">ATA CRM</span>
     </a>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">Home</a>
@@ -20,104 +21,150 @@
       <a href="cours.html">Courses</a>
       <a href="certifications.html">Certifications</a>
       <a href="projet-final.html">Final Project</a>
-      <a href="soutenance.html">Presentation</a>
+      <a href="deliverables.html">Deliverables</a>
       <a href="ressources.html">Resources</a>
       <a href="a-propos.html">About</a>
-      <button class="btn" type="button" data-theme-toggle aria-label="Toggle theme">Light mode</button>
+      <button class="btn" type="button" data-theme-toggle aria-label="Toggle theme">Dark mode</button>
     </nav>
   </div>
 </header>
 
 <main class="container">
   <section class="page-head">
-    <h1>CRM Food Trading - Final Project</h1>
-    <p>Design and delivery of a SaaS CRM for a B2B raw food ingredients trading company.</p>
+    <h1>ATA CRM - Final Project</h1>
+    <p>Design and delivery of a SaaS CRM for a B2B company trading food products and additives.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://web-brown-delta-70.vercel.app" target="_blank" rel="noopener">Open Live Demo</a>
+      <a class="btn" href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">Open CRM Repository</a>
+      <a class="btn" href="deliverables.html">Open Deliverables Hub</a>
+    </div>
   </section>
 
   <section class="section">
     <div class="section-title">
       <h3>Business Scenario</h3>
-      <span class="hint">Realistic context used for the live demo</span>
+      <span class="hint">Context used for implementation and defense</span>
     </div>
     <article class="item">
       <p>
-        The company handles client requests for products such as cocoa, milk powder, and spice blends.
-        The sales cycle requires strict qualification, tracked quotes, and automated follow-up when prospects stay inactive.
-        The CRM centralizes contacts, companies, leads, tasks, and emails to make this process reliable.
+        ATA CRM supports a food ingredients trading company managing supplier relationships, customer follow-up,
+        negotiated quotes, and conversion forecasting. The platform centralizes companies, contacts, products,
+        leads, tasks, emails, and role-based collaboration.
       </p>
     </article>
   </section>
 
   <section class="section">
     <div class="section-title">
-      <h3>Dedicated Workflow and Pipeline</h3>
-      <span class="hint">Sales pipeline tailored to business operations</span>
+      <h3>Architecture and Modules</h3>
+      <span class="hint">Implementation stack and core capabilities</span>
     </div>
-    <article class="item">
-      <h4>Pipeline</h4>
-      <ul>
-        <li>New Lead</li>
-        <li>Qualification</li>
-        <li>Sample Sent</li>
-        <li>Quote Sent</li>
-        <li>Negotiation</li>
-        <li>Won</li>
-        <li>Lost</li>
-      </ul>
-      <p>
-        The operational workflow includes task creation, stage movement, history tracking,
-        a 72-hour automatic follow-up on the "Quote Sent" stage, and automatic task deadline reminders.
-      </p>
-    </article>
+    <div class="grid">
+      <article class="card">
+        <h4>Stack</h4>
+        <p>Next.js 16, Supabase (PostgreSQL + Auth + RLS), Brevo, Vercel, GitHub Actions.</p>
+      </article>
+      <article class="card">
+        <h4>Sales Operations</h4>
+        <p>Leads pipeline, stage transitions, collaboration tracking, weighted forecast, and task planning.</p>
+      </article>
+      <article class="card">
+        <h4>Data Modules</h4>
+        <p>Companies, contacts, products, and categories with profile pages and relationship views.</p>
+      </article>
+      <article class="card">
+        <h4>Email Module</h4>
+        <p>Manual send, role-aware analytics, templates, and protected automation jobs for admin.</p>
+      </article>
+      <article class="card">
+        <h4>Access Model</h4>
+        <p>Admin, manager, commercial, and standard user with role-scoped behavior and protected actions.</p>
+      </article>
+      <article class="card">
+        <h4>Quality Layer</h4>
+        <p>Unit/API/E2E checks, CI gates, and documented compliance mapping against project requirements.</p>
+      </article>
+    </div>
   </section>
 
   <section class="section">
     <div class="section-title">
-      <h3>Tools Used</h3>
-      <span class="hint">Technical stack and delivery workflow</span>
+      <h3>CRM Workflow and Pipeline</h3>
+      <span class="hint">Operational journey from first contact to closure</span>
     </div>
     <article class="item">
       <ul>
-        <li>Next.js 16 (frontend + API routes)</li>
-        <li>Supabase (PostgreSQL, Auth, RLS)</li>
-        <li>Brevo (transactional emails)</li>
-        <li>Vercel (deployment)</li>
-        <li>GitHub + GitHub Actions (versioning + CI)</li>
-        <li>Playwright (end-to-end validation)</li>
-        <li>Docker / Docker Compose (bonus runtime package)</li>
-      </ul>
-    </article>
-  </section>
-
-  <section class="section">
-    <div class="section-title">
-      <h3>Bonus Features</h3>
-      <span class="hint">Extra engineering scope for higher grading</span>
-    </div>
-    <article class="item">
-      <ul>
-        <li>Dashboard report export in CSV and PDF</li>
-        <li>Real-time in-app notifications with fallback polling</li>
-        <li>Secured BI endpoint for Power BI / Metabase ingestion</li>
+        <li>Pipeline stages: New Lead, Qualification, Sample Sent, Quote Sent, Negotiation, Won, Lost.</li>
+        <li>Negotiation has explicit decision actions (Mark Won / Mark Lost).</li>
+        <li>Quick actions include previous stage, edit, and task creation from lead cards.</li>
+        <li>Weighted forecasting uses stage probability progression to estimate short-term revenue.</li>
       </ul>
     </article>
   </section>
 
   <section class="section">
     <div class="section-title">
-      <h3>Official Deliverables and Links</h3>
-      <span class="hint">Direct access to implementation evidence</span>
+      <h3>Live Demo Flow (Instructor Walkthrough)</h3>
+      <span class="hint">Compact path replacing the previous presentation page</span>
+    </div>
+    <article class="item">
+      <ol>
+        <li>Sign in and verify role-specific navigation.</li>
+        <li>Create or open a company profile, then attach relevant products.</li>
+        <li>Open a contact profile linked to the target company.</li>
+        <li>Create a new lead with fixed source and assignment behavior.</li>
+        <li>Move lead stages up to negotiation, then close as won or lost.</li>
+        <li>Create follow-up tasks and show calendar impact.</li>
+        <li>Send a manual email and review scoped analytics.</li>
+        <li>Open dashboard KPI and weighted forecast indicators.</li>
+        <li>Show documentation proof from the deliverables links.</li>
+      </ol>
+    </article>
+  </section>
+
+  <section class="section">
+    <div class="section-title">
+      <h3>Application Screenshots</h3>
+      <span class="hint">Visual evidence from the real ATA CRM instance</span>
+    </div>
+    <div class="grid media-grid">
+      <article class="card">
+        <h4>Login</h4>
+        <img src="assets/screenshots/crm-login.png" alt="ATA CRM login page screenshot" />
+        <div class="meta"><a href="assets/screenshots/crm-login.png">View full image</a></div>
+      </article>
+      <article class="card">
+        <h4>Dashboard KPI</h4>
+        <img src="assets/screenshots/crm-dashboard.png" alt="ATA CRM dashboard screenshot" />
+        <div class="meta"><a href="assets/screenshots/crm-dashboard.png">View full image</a></div>
+      </article>
+      <article class="card">
+        <h4>Leads Pipeline</h4>
+        <img src="assets/screenshots/crm-pipeline.png" alt="ATA CRM pipeline screenshot" />
+        <div class="meta"><a href="assets/screenshots/crm-pipeline.png">View full image</a></div>
+      </article>
+      <article class="card">
+        <h4>Email Module</h4>
+        <img src="assets/screenshots/crm-emails.png" alt="ATA CRM emails page screenshot" />
+        <div class="meta"><a href="assets/screenshots/crm-emails.png">View full image</a></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">
+      <h3>Official Evidence Links</h3>
+      <span class="hint">Project proof and grading support documents</span>
     </div>
     <article class="item">
       <ul>
         <li>CRM repo: <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">github.com/SepehrQasemi/crm-food-trading</a></li>
         <li>Portfolio repo: <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">github.com/SepehrQasemi/Portfolio</a></li>
-        <li>Online demo: <a href="https://web-brown-delta-70.vercel.app" target="_blank" rel="noopener">web-brown-delta-70.vercel.app</a></li>
-        <li>Main README (EN): <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/README.md" target="_blank" rel="noopener">README.md</a></li>
-        <li>French report (FR): <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/rapport-projet-fr.md" target="_blank" rel="noopener">docs/rapport-projet-fr.md</a></li>
-        <li>Persian summary (FA): <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/resume-projet-fa.md" target="_blank" rel="noopener">docs/resume-projet-fa.md</a></li>
-        <li>Compliance matrix: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/final-compliance-checklist.md" target="_blank" rel="noopener">docs/final-compliance-checklist.md</a></li>
-        <li>Safe baseline freeze: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/release-baseline-v1.md" target="_blank" rel="noopener">docs/release-baseline-v1.md</a></li>
+        <li>Live demo: <a href="https://web-brown-delta-70.vercel.app" target="_blank" rel="noopener">web-brown-delta-70.vercel.app</a></li>
+        <li>French report: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/rapport-projet-fr.md" target="_blank" rel="noopener">docs/rapport-projet-fr.md</a></li>
+        <li>Compliance checklist: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/final-compliance-checklist.md" target="_blank" rel="noopener">docs/final-compliance-checklist.md</a></li>
+        <li>Baseline freeze note: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/release-baseline-v1.md" target="_blank" rel="noopener">docs/release-baseline-v1.md</a></li>
+        <li>QA proof (latest): <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/qa-proof-2026-03-11.md" target="_blank" rel="noopener">docs/qa-proof-2026-03-11.md</a></li>
       </ul>
     </article>
   </section>

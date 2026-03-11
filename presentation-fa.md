@@ -1,24 +1,26 @@
-# پورتفولیو MIAGE - نسخه فارسی
+# Portfolio - Persian Summary
 
-## هدف
-این پورتفولیو خروجی‌های درس CRM / ارتباطات دیجیتال را نشان می‌دهد و تمرکز اصلی آن روی پروژه نهایی **CRM Food Trading** است.
+## Goal
+This note summarizes the portfolio content for ATA CRM final delivery.
 
-## محتوای اصلی
-- `index.html`: صفحه اصلی
-- `travaux.html`: تمرین‌ها و کارهای عملی
-- `cours.html`: خلاصه مفاهیم CRM، پایپ‌لاین، ورک‌فلو و KPI
-- `projet-final.html`: سناریوی کسب‌وکار، ابزارها و لینک‌های رسمی
-- `soutenance.html`: سناریوی ارائه 8 تا 10 دقیقه‌ای
-- `ressources.html`: منابع رسمی فنی و روش‌شناسی
+## Main Pages
+- `index.html`: home
+- `travaux.html`: practical assignments
+- `cours.html`: CRM concepts
+- `certifications.html`: validated skills
+- `projet-final.html`: business scenario, architecture, demo flow, screenshots
+- `deliverables.html`: files and official links
+- `ressources.html`: references
+- `a-propos.html`: profile and contact
 
-## لینک‌های پروژه CRM
-- ریپو: https://github.com/SepehrQasemi/crm-food-trading
-- دمو: https://web-brown-delta-70.vercel.app
-- گزارش فرانسوی: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/rapport-projet-fr.md
-- خلاصه فارسی: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/resume-projet-fa.md
+## Main Links
+- CRM repo: https://github.com/SepehrQasemi/crm-food-trading
+- CRM demo: https://web-brown-delta-70.vercel.app
+- Portfolio repo: https://github.com/SepehrQasemi/Portfolio
+- Portfolio Pages: https://sepehrqasemi.github.io/Portfolio/
 
-## نکات کلیدی برای دفاع
-- مسیر کامل دمو: شرکت -> مخاطب -> محصول -> سرنخ -> تسک -> ایمیل -> KPI
-- پایپ‌لاین فروش + فانل
-- اتوماسیون ایمیل (follow-up 72h و reminder تسک)
-- کیفیت تحویل (CI و تست E2E با Playwright)
+## Defense Focus
+- End-to-end workflow demonstration
+- Pipeline and weighted forecast logic
+- Email automation and reminders
+- CI and end-to-end test readiness
