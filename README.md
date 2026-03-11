@@ -1,16 +1,19 @@
-# Sepehr Portfolio (ATA CRM Delivery Hub)
+# Sepehr Portfolio
 
-Static HTML/CSS/JS portfolio for the final ATA CRM project submission.
+Static HTML/CSS/JS portfolio for project and coursework delivery.
 
 ## Pages
-- `private-material-removed`: landing and project snapshot
+- `private-material-removed`: minimal home page
 - `travaux.html`: practical assignments from the module
 - `cours.html`: course concepts used in implementation
 - `certifications.html`: validated skills and outcomes
-- `projet-final.html`: complete ATA CRM project page (includes demo flow + screenshots)
+- `projects.html`: projects page (ATA CRM currently featured)
 - `deliverables.html`: centralized download and evidence links
 - `ressources.html`: official technical references
 - `a-propos.html`: profile and contact
+
+Legacy compatibility:
+- `projet-final.html` redirects to `projects.html`
 
 ## Linked Deliverables
 - Portfolio repository: https://github.com/SepehrQasemi/Portfolio
@@ -18,7 +21,6 @@ Static HTML/CSS/JS portfolio for the final ATA CRM project submission.
 - CRM demo: https://web-brown-delta-70.vercel.app
 - Portfolio (GitHub Pages): https://sepehrqasemi.github.io/Portfolio/
 - CRM compliance matrix: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/final-compliance-checklist.md
-- CRM baseline freeze: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/release-baseline-v1.md
 - CRM QA proof: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/qa-proof-2026-03-11.md
 
 ## Useful folders
@@ -43,4 +45,3 @@ Open `private-material-removed` in a browser (or use VS Code Live Server).
 
 ## Language policy
 - Current website language: English only
-- No public presentation page in portfolio navigation

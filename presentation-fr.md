@@ -8,7 +8,7 @@ Ce portfolio presente les livrables du module CRM / communication digitale, avec
 - `travaux.html`: travaux pratiques (Odoo, HubSpot, exercices CRM)
 - `cours.html`: notions CRM, pipeline, workflow, KPI
 - `certifications.html`: competences validees
-- `projet-final.html`: scenario metier, stack technique, parcours de demo, captures ecran
+- `projects.html`: page projets (ATA CRM), stack technique, parcours de demo, captures ecran
 - `deliverables.html`: hub de liens et telechargements
 - `ressources.html`: sources techniques et methodologiques
 - `a-propos.html`: profil et contact

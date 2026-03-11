@@ -8,7 +8,7 @@ This note summarizes the portfolio content for ATA CRM final delivery.
 - `travaux.html`: practical assignments
 - `cours.html`: CRM concepts
 - `certifications.html`: validated skills
-- `projet-final.html`: business scenario, architecture, demo flow, screenshots
+- `projects.html`: projects page with ATA CRM business scenario, architecture, demo flow, screenshots
 - `deliverables.html`: files and official links
 - `ressources.html`: references
 - `a-propos.html`: profile and contact
