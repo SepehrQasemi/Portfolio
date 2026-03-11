@@ -1,56 +1,46 @@
-# MIAGE Portfolio
+# Sepehr Portfolio (ATA CRM Delivery Hub)
 
-Static HTML/CSS/JS portfolio used for the CRM project presentation.
+Static HTML/CSS/JS portfolio for the final ATA CRM project submission.
 
-## Content
-- `index.html`: home
-- `travaux.html`: assignments and practical work
-- `cours.html`: course concept summary
-- `certifications.html`: progress and side projects
-- `projet-final.html`: complete CRM project presentation
-- `soutenance.html`: 8-10 minute presentation plan + CRM screenshots
-- `ressources.html`: official references
+## Pages
+- `index.html`: landing and project snapshot
+- `travaux.html`: practical assignments from the module
+- `cours.html`: course concepts used in implementation
+- `certifications.html`: validated skills and outcomes
+- `projet-final.html`: complete ATA CRM project page (includes demo flow + screenshots)
+- `deliverables.html`: centralized download and evidence links
+- `ressources.html`: official technical references
 - `a-propos.html`: profile and contact
-- `presentation-fr.md`: French portfolio summary
-- `presentation-fa.md`: Persian portfolio summary
 
 ## Linked Deliverables
 - Portfolio repository: https://github.com/SepehrQasemi/Portfolio
 - CRM repository: https://github.com/SepehrQasemi/crm-food-trading
 - CRM demo: https://web-brown-delta-70.vercel.app
-- CRM baseline freeze notes: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/release-baseline-v1.md
+- Portfolio (GitHub Pages): https://sepehrqasemi.github.io/Portfolio/
 - CRM compliance matrix: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/final-compliance-checklist.md
-
-## Bonus scope reflected in Portfolio
-- Dashboard export (CSV/PDF)
-- Real-time notifications
-- BI endpoint exposure
-- Dockerized runtime package
+- CRM baseline freeze: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/release-baseline-v1.md
+- CRM QA proof: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/qa-proof-2026-03-11.md
 
 ## Useful folders
 - Reports / documents: `assets/files/`
 - CRM screenshots: `assets/screenshots/`
 - Styles: `assets/css/style.css`
-- Shared JS: `assets/js/main.js`
+- Shared script: `assets/js/main.js`
 
 ## Local usage
-- Open `index.html` in a browser
-- VS Code option: Live Server
+Open `index.html` in a browser (or use VS Code Live Server).
 
 ## GitHub Pages publishing
 1. Push to `main`
 2. GitHub -> Settings -> Pages
 3. Source: Deploy from a branch
-4. Branch: `main` / folder: `/ (root)`
+4. Branch: `main`, folder: `/ (root)`
 
-## Repository Governance
+## Governance
 - CI workflow: `.github/workflows/ci.yml` (`lint-build`)
 - Protected branch: `main`
 - Required check before merge: `lint-build`
-- Auto-delete merged branches: enabled
 
-## Language strategy
-- Default language: English
-- Next versions: French and Persian
-- French summary: `presentation-fr.md`
-- Persian summary: `presentation-fa.md`
+## Language policy
+- Current website language: English only
+- No public presentation page in portfolio navigation
