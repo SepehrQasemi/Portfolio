@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ATA CRM v2 - Project Profile</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Sepehr Portfolio
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a class="active" href="../projects.html">Projects</a>
+      <a href="../work.html">Work</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <p class="eyebrow">Project Profile</p>
+    <h1>ATA CRM v2</h1>
+    <p>
+      Production-oriented CRM for food ingredients trading, built to manage companies,
+      contacts, products, leads, tasks, and controlled email workflows.
+    </p>
+    <div class="tag-row">
+      <span class="tag">Version 2</span>
+      <span class="tag">Next.js 16</span>
+      <span class="tag">Supabase</span>
+      <span class="tag">Vercel</span>
+      <span class="tag">GitHub Actions</span>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://web-brown-delta-70.vercel.app/login" target="_blank" rel="noopener">Open Live Demo</a>
+      <a class="btn" href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">Open Repository</a>
+      <a class="btn" href="../projects.html">Back to Projects</a>
+    </div>
+  </section>
+
+  <section class="section split">
+    <article class="item">
+      <p class="kicker">Problem</p>
+      <h3>Fragmented sales operations</h3>
+      <p>
+        Commercial teams needed one reliable workspace for lead follow-up,
+        profile-level customer data, and role-based collaboration without manual spreadsheets.
+      </p>
+    </article>
+    <article class="item">
+      <p class="kicker">Solution</p>
+      <h3>Unified CRM workflow</h3>
+      <p>
+        ATA CRM centralizes pipeline flow, product-company relationships,
+        scoped user permissions, and daily execution tooling in a single interface.
+      </p>
+    </article>
+  </section>
+
+  <section class="section grid two">
+    <article class="item">
+      <p class="kicker">Core Features</p>
+      <h3>What is implemented</h3>
+      <ul>
+        <li>Lead pipeline with weighted forecast and negotiation outcomes</li>
+        <li>Company/contact/product/category profile pages</li>
+        <li>Task visibility model with private and shared tasks</li>
+        <li>Manual email with recipient suggestions and analytics scopes</li>
+        <li>Role-based controls for standard, manager, and admin users</li>
+      </ul>
+    </article>
+
+    <article class="item">
+      <p class="kicker">Demo Flow</p>
+      <h3>Suggested walkthrough</h3>
+      <ol>
+        <li>Open company and contact profiles.</li>
+        <li>Create a lead, move stages, and finalize win/loss.</li>
+        <li>Create a linked task and validate visibility.</li>
+        <li>Send manual email and inspect personal analytics.</li>
+        <li>Review dashboard forecast and KPI updates.</li>
+      </ol>
+    </article>
+  </section>
+
+  <section class="section">
+    <h2>Screenshots</h2>
+    <div class="shots">
+      <figure class="shot">
+        <img src="../assets/screenshots/crm-v2-dashboard.png" alt="ATA CRM version 2 dashboard screen" />
+        <figcaption class="cap">Dashboard</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="../assets/screenshots/crm-v2-leads.png" alt="ATA CRM version 2 leads screen" />
+        <figcaption class="cap">Leads & Pipeline</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="../assets/screenshots/crm-v2-companies.png" alt="ATA CRM version 2 companies screen" />
+        <figcaption class="cap">Companies</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="../assets/screenshots/crm-v2-products.png" alt="ATA CRM version 2 products screen" />
+        <figcaption class="cap">Products</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="../assets/screenshots/crm-v2-emails.png" alt="ATA CRM version 2 emails screen" />
+        <figcaption class="cap">Emails</figcaption>
+      </figure>
+      <figure class="shot">
+        <img src="../assets/screenshots/crm-v2-login-en.png" alt="ATA CRM version 2 login screen (English)" />
+        <figcaption class="cap">Login</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section">
+    <article class="item">
+      <p class="kicker">Evidence Links</p>
+      <h3>Documentation</h3>
+      <ul>
+        <li><a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/final-compliance-checklist.md" target="_blank" rel="noopener">Compliance checklist</a></li>
+        <li><a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/rapport-projet-fr.md" target="_blank" rel="noopener">Project report (FR)</a></li>
+        <li><a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/qa-proof-2026-03-11.md" target="_blank" rel="noopener">QA proof</a></li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    &copy; <span id="year"></span> Sepehr Qasemi |
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio Repo</a>
+  </div>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

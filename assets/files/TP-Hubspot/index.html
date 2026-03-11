@@ -3,91 +3,87 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>HubSpot Discovery Assignment</title>
+  <title>HubSpot Assignment - Sepehr Portfolio</title>
   <link rel="stylesheet" href="../../css/style.css" />
   <style>
-    .tp-gallery{display:flex;flex-direction:column;gap:14px}
-    .tp-figure{margin:0}
-    .tp-caption{margin-top:6px;font-size:13px;color:var(--muted)}
-    .tp-actions{margin-top:8px}
+    .tp-gallery {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .tp-figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      background: var(--surface);
+    }
+
+    .tp-caption {
+      padding: 8px 12px;
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 960px) {
+      .tp-gallery {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 <body>
-
 <header class="nav">
   <div class="container nav-inner">
-    <a class="brand" href="../../../index.html" aria-label="Go to homepage">
-      <span class="brand-dot" aria-hidden="true"></span>
-      <span class="brand-main">Sepehr Portfolio</span>    </a>
+    <a class="brand" href="../../../index.html">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Sepehr Portfolio
+    </a>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="../../../index.html">Home</a>
-      <a href="../../../travaux.html">Work</a>
-      <a href="../../../cours.html">Courses</a>
-      <a href="../../../certifications.html">Certifications</a>
       <a href="../../../projects.html">Projects</a>
-      <a href="../../../deliverables.html">Deliverables</a>
-      <a href="../../../ressources.html">Resources</a>
-      <a href="../../../a-propos.html">About</a>
-      <button class="btn" type="button" data-theme-toggle aria-label="Toggle theme">Dark mode</button>
+      <a href="../../../work.html">Work</a>
     </nav>
   </div>
 </header>
 
 <main class="container">
-  <section class="page-head">
+  <section class="hero">
+    <p class="eyebrow">Course Deliverable</p>
     <h1>HubSpot Discovery Assignment</h1>
-    <p>Screenshots and synthesis of the practical work completed on HubSpot.</p>
+    <p>Screenshot sequence and short analysis from the practical CRM exercise.</p>
+    <div class="btn-row">
+      <a class="btn" href="../../../work.html">Back to Work</a>
+      <a class="btn btn-primary" href="Analyse du TP.pdf" target="_blank" rel="noopener">Open Analysis PDF</a>
+    </div>
   </section>
 
   <section class="section">
-    <div class="section-title">
-      <h3>Screenshots</h3>
-      <span class="hint">9 screenshots in order</span>
-    </div>
-
+    <h2>Screenshots</h2>
     <div class="tp-gallery">
-      <figure class="tp-figure"><img src="1.png" alt="Screenshot 1" /><figcaption class="tp-caption">Screenshot 1</figcaption></figure>
-      <figure class="tp-figure"><img src="2.png" alt="Screenshot 2" /><figcaption class="tp-caption">Screenshot 2</figcaption></figure>
-      <figure class="tp-figure"><img src="3.png" alt="Screenshot 3" /><figcaption class="tp-caption">Screenshot 3</figcaption></figure>
-      <figure class="tp-figure"><img src="4.png" alt="Screenshot 4" /><figcaption class="tp-caption">Screenshot 4</figcaption></figure>
-      <figure class="tp-figure"><img src="5.png" alt="Screenshot 5" /><figcaption class="tp-caption">Screenshot 5</figcaption></figure>
-      <figure class="tp-figure"><img src="6.png" alt="Screenshot 6" /><figcaption class="tp-caption">Screenshot 6</figcaption></figure>
-      <figure class="tp-figure"><img src="7.png" alt="Screenshot 7" /><figcaption class="tp-caption">Screenshot 7</figcaption></figure>
-      <figure class="tp-figure"><img src="8.png" alt="Screenshot 8" /><figcaption class="tp-caption">Screenshot 8</figcaption></figure>
-      <figure class="tp-figure"><img src="9.png" alt="Screenshot 9" /><figcaption class="tp-caption">Screenshot 9</figcaption></figure>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-title">
-      <h3>Analysis</h3>
-      <span class="hint">Short synthesis</span>
-    </div>
-    <p>
-      This assignment highlights CRM configuration logic and stage consistency,
-      from contact creation to pipeline operation.
-      It demonstrates how rigorous setup improves reliability in commercial follow-up.
-    </p>
-    <div class="tp-actions">
-      <a class="btn" href="Analyse du TP.pdf" target="_blank" rel="noopener">Open analysis PDF</a>
+      <figure class="tp-figure"><img src="1.png" alt="HubSpot screenshot 1" /><figcaption class="tp-caption">Screenshot 1</figcaption></figure>
+      <figure class="tp-figure"><img src="2.png" alt="HubSpot screenshot 2" /><figcaption class="tp-caption">Screenshot 2</figcaption></figure>
+      <figure class="tp-figure"><img src="3.png" alt="HubSpot screenshot 3" /><figcaption class="tp-caption">Screenshot 3</figcaption></figure>
+      <figure class="tp-figure"><img src="4.png" alt="HubSpot screenshot 4" /><figcaption class="tp-caption">Screenshot 4</figcaption></figure>
+      <figure class="tp-figure"><img src="5.png" alt="HubSpot screenshot 5" /><figcaption class="tp-caption">Screenshot 5</figcaption></figure>
+      <figure class="tp-figure"><img src="6.png" alt="HubSpot screenshot 6" /><figcaption class="tp-caption">Screenshot 6</figcaption></figure>
+      <figure class="tp-figure"><img src="7.png" alt="HubSpot screenshot 7" /><figcaption class="tp-caption">Screenshot 7</figcaption></figure>
+      <figure class="tp-figure"><img src="8.png" alt="HubSpot screenshot 8" /><figcaption class="tp-caption">Screenshot 8</figcaption></figure>
+      <figure class="tp-figure"><img src="9.png" alt="HubSpot screenshot 9" /><figcaption class="tp-caption">Screenshot 9</figcaption></figure>
     </div>
   </section>
 </main>
 
 <footer class="footer">
   <div class="container">
-    &copy; <span id="year"></span> Sepehr Qasemi - Source code:
-    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio</a>
-    |
-    <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">CRM</a>
+    &copy; <span id="year"></span> Sepehr Qasemi |
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio Repo</a>
   </div>
 </footer>
 <script>
-  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-<script src="../../js/main.js"></script>
-
 </body>
 </html>
-
-

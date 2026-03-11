@@ -1,47 +1,33 @@
 # Sepehr Portfolio
 
-Static HTML/CSS/JS portfolio for project and coursework delivery.
+Minimal static portfolio focused on course work and project delivery.
 
-## Pages
-- `index.html`: minimal home page
-- `travaux.html`: practical assignments from the module
-- `cours.html`: course concepts used in implementation
-- `certifications.html`: validated skills and outcomes
-- `projects.html`: projects page (ATA CRM currently featured)
-- `deliverables.html`: centralized download and evidence links
-- `ressources.html`: official technical references
-- `a-propos.html`: profile and contact
+## Public pages
+- `index.html` (`/Portfolio/`): Home
+- `projects.html` (`/Portfolio/projects.html`): Project list
+- `projects/ata-crm.html` (`/Portfolio/projects/ata-crm.html`): ATA CRM project profile
+- `work.html` (`/Portfolio/work.html`): Instructor assignments (Odoo + HubSpot)
 
-Legacy compatibility:
-- `projet-final.html` redirects to `projects.html`
-
-## Linked Deliverables
+## Core links
 - Portfolio repository: https://github.com/SepehrQasemi/Portfolio
-- CRM repository: https://github.com/SepehrQasemi/crm-food-trading
-- CRM demo: https://web-brown-delta-70.vercel.app
 - Portfolio (GitHub Pages): https://sepehrqasemi.github.io/Portfolio/
-- CRM compliance matrix: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/final-compliance-checklist.md
-- CRM QA proof: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/qa-proof-2026-03-11.md
+- ATA CRM live demo: https://web-brown-delta-70.vercel.app
+- ATA CRM repository: https://github.com/SepehrQasemi/crm-food-trading
+- ATA CRM compliance checklist: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/final-compliance-checklist.md
+- ATA CRM project report (FR): https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/rapport-projet-fr.md
+- ATA CRM QA proof: https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/qa-proof-2026-03-11.md
 
-## Useful folders
-- Reports / documents: `assets/files/`
-- CRM screenshots: `assets/screenshots/`
-- Styles: `assets/css/style.css`
-- Shared script: `assets/js/main.js`
+## Project structure
+- `assets/css/style.css`: global minimal styles
+- `assets/files/`: assignment files and HubSpot assets
+- `assets/screenshots/`: ATA CRM screenshots used in project profile
+- `.github/workflows/ci.yml`: required-page and content-sanity checks
 
-## Local usage
-Open `index.html` in a browser (or use VS Code Live Server).
+## Local run
+Open `index.html` directly in a browser or run with VS Code Live Server.
 
-## GitHub Pages publishing
-1. Push to `main`
-2. GitHub -> Settings -> Pages
-3. Source: Deploy from a branch
-4. Branch: `main`, folder: `/ (root)`
+## Deployment
+GitHub Pages from `main` branch, root folder (`/`).
 
-## Governance
-- CI workflow: `.github/workflows/ci.yml` (`lint-build`)
-- Protected branch: `main`
-- Required check before merge: `lint-build`
-
-## Language policy
-- Current website language: English only
+## Language
+Portfolio content is English-only in this version.

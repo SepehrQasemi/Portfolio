@@ -18,13 +18,9 @@ jobs:
           set -euo pipefail
           required=(
             "index.html"
-            "travaux.html"
-            "cours.html"
-            "certifications.html"
             "projects.html"
-            "deliverables.html"
-            "ressources.html"
-            "a-propos.html"
+            "work.html"
+            "projects/ata-crm.html"
             "README.md"
           )
           for f in "${required[@]}"; do
