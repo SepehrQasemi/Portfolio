@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Work - Sepehr Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Sepehr Portfolio
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a class="active" href="work.html">Work</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <p class="eyebrow">Course Deliverables</p>
+    <h1>Work</h1>
+    <p>Assignments completed for the same instructor, focused on CRM and business process tools.</p>
+  </section>
+
+  <section class="section grid two">
+    <article class="card">
+      <p class="kicker">Assignment</p>
+      <h3>Odoo</h3>
+      <p>
+        Practical work on procurement, inventory, sales process flow, and invoicing logic.
+      </p>
+      <div class="tag-row">
+        <span class="tag">ERP Workflow</span>
+        <span class="tag">Business Process</span>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="assets/files/TP_Odoo_Sepehr_Qasemi.pdf">Open PDF</a>
+        <a class="btn" href="assets/files/TpP Odoo Sepehr Qasemi.docx">Open DOCX</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <p class="kicker">Assignment</p>
+      <h3>HubSpot</h3>
+      <p>
+        CRM discovery task with screenshot evidence and concise process analysis.
+      </p>
+      <div class="tag-row">
+        <span class="tag">CRM Practice</span>
+        <span class="tag">Process Analysis</span>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="assets/files/TP-Hubspot/index.html">Open HubSpot Pack</a>
+        <a class="btn" href="assets/files/TP-Hubspot/Analyse du TP.pdf">Open Analysis PDF</a>
+      </div>
+    </article>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    &copy; <span id="year"></span> Sepehr Qasemi |
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio Repo</a>
+  </div>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

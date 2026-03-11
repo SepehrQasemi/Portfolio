@@ -7,185 +7,55 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-
 <header class="nav">
   <div class="container nav-inner">
-    <a class="brand" href="index.html" aria-label="Go to homepage">
-      <span class="brand-dot" aria-hidden="true"></span>
-      <span class="brand-main">Sepehr Portfolio</span>
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Sepehr Portfolio
     </a>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="index.html">Home</a>
-      <a href="travaux.html">Work</a>
-      <a href="cours.html">Courses</a>
-      <a href="certifications.html">Certifications</a>
-      <a href="projects.html">Projects</a>
-      <a href="deliverables.html">Deliverables</a>
-      <a href="ressources.html">Resources</a>
-      <a href="a-propos.html">About</a>
-      <button class="btn" type="button" data-theme-toggle aria-label="Toggle theme">Dark mode</button>
+      <a class="active" href="projects.html">Projects</a>
+      <a href="work.html">Work</a>
     </nav>
   </div>
 </header>
 
 <main class="container">
-  <section class="page-head">
+  <section class="hero">
+    <p class="eyebrow">Project Library</p>
     <h1>Projects</h1>
-    <p>All major software projects are listed here. ATA CRM is the first complete project in this portfolio.</p>
+    <p>Focused project profiles with demo links, architecture notes, and proof documents.</p>
   </section>
 
   <section class="section">
-    <div class="section-title">
-      <h3>Featured Project - ATA CRM</h3>
-      <span class="hint">B2B CRM for food products and additives trading</span>
-    </div>
-    <article class="item">
+    <article class="card">
+      <p class="kicker">Project 01</p>
+      <h3>ATA CRM v2</h3>
       <p>
-        ATA CRM is a full-stack SaaS project designed for a company working with suppliers and customers
-        in food ingredients and additives. The system centralizes contacts, companies, products, categories,
-        leads, tasks, and email operations with role-based behavior.
+        End-to-end CRM platform for B2B sales operations in food ingredients trade.
       </p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="https://web-brown-delta-70.vercel.app" target="_blank" rel="noopener">Open Live Demo</a>
-        <a class="btn" href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">Open CRM Repository</a>
-        <a class="btn" href="deliverables.html">Open Deliverables Hub</a>
+      <div class="tag-row">
+        <span class="tag">Version 2</span>
+        <span class="tag">Live Demo</span>
+        <span class="tag">RBAC</span>
+        <span class="tag">Email Workflows</span>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="projects/ata-crm.html">View Project Profile</a>
       </div>
     </article>
-  </section>
-
-  <section class="section">
-    <div class="section-title">
-      <h3>Architecture and Core Modules</h3>
-      <span class="hint">Technical and product coverage</span>
-    </div>
-    <div class="grid">
-      <article class="card">
-        <h4>Stack</h4>
-        <p>Next.js 16, Supabase (PostgreSQL + Auth + RLS), Brevo, Vercel, GitHub Actions.</p>
-      </article>
-      <article class="card">
-        <h4>Operational Modules</h4>
-        <p>Leads, tasks, contacts, companies, products, categories, colleagues, and notifications.</p>
-      </article>
-      <article class="card">
-        <h4>Email and Automation</h4>
-        <p>Manual send, role-based analytics, template use, and admin-protected automation jobs.</p>
-      </article>
-      <article class="card">
-        <h4>Pipeline Logic</h4>
-        <p>Stage transitions, negotiation decisions, and weighted forecast model by stage probability.</p>
-      </article>
-      <article class="card">
-        <h4>Data Access Model</h4>
-        <p>Role-based behavior for admin, manager, commercial, and standard users.</p>
-      </article>
-      <article class="card">
-        <h4>Quality</h4>
-        <p>Coverage and E2E gates with CI-based validation before release and demo use.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-title">
-      <h3>Demo Flow</h3>
-      <span class="hint">Compact instructor walkthrough</span>
-    </div>
-    <article class="item">
-      <ol>
-        <li>Sign in and verify role-specific navigation.</li>
-        <li>Create or open a company profile, then attach relevant products.</li>
-        <li>Open a contact profile linked to the target company.</li>
-        <li>Create a lead with source and assignment rules.</li>
-        <li>Move lead stages to negotiation, then mark won or lost.</li>
-        <li>Create tasks and show calendar impact.</li>
-        <li>Send manual email and review analytics scope.</li>
-        <li>Open dashboard KPI and weighted forecast.</li>
-        <li>Show documentation proof from deliverables links.</li>
-      </ol>
-    </article>
-  </section>
-
-  <section class="section">
-    <div class="section-title">
-      <h3>Application Screenshots</h3>
-      <span class="hint">Production visuals of ATA CRM</span>
-    </div>
-    <div class="grid media-grid">
-      <article class="card">
-        <h4>Login</h4>
-        <img src="assets/screenshots/crm-login.png" alt="ATA CRM login page screenshot" />
-        <div class="meta"><a href="assets/screenshots/crm-login.png">View full image</a></div>
-      </article>
-      <article class="card">
-        <h4>Dashboard KPI</h4>
-        <img src="assets/screenshots/crm-dashboard.png" alt="ATA CRM dashboard screenshot" />
-        <div class="meta"><a href="assets/screenshots/crm-dashboard.png">View full image</a></div>
-      </article>
-      <article class="card">
-        <h4>Leads Pipeline</h4>
-        <img src="assets/screenshots/crm-pipeline.png" alt="ATA CRM pipeline screenshot" />
-        <div class="meta"><a href="assets/screenshots/crm-pipeline.png">View full image</a></div>
-      </article>
-      <article class="card">
-        <h4>Email Module</h4>
-        <img src="assets/screenshots/crm-emails.png" alt="ATA CRM emails page screenshot" />
-        <div class="meta"><a href="assets/screenshots/crm-emails.png">View full image</a></div>
-      </article>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-title">
-      <h3>Official Evidence Links</h3>
-      <span class="hint">Submission support documents</span>
-    </div>
-    <article class="item">
-      <ul>
-        <li>CRM repo: <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">github.com/SepehrQasemi/crm-food-trading</a></li>
-        <li>Portfolio repo: <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">github.com/SepehrQasemi/Portfolio</a></li>
-        <li>Live demo: <a href="https://web-brown-delta-70.vercel.app" target="_blank" rel="noopener">web-brown-delta-70.vercel.app</a></li>
-        <li>French report: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/rapport-projet-fr.md" target="_blank" rel="noopener">docs/rapport-projet-fr.md</a></li>
-        <li>Compliance checklist: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/final-compliance-checklist.md" target="_blank" rel="noopener">docs/final-compliance-checklist.md</a></li>
-        <li>QA proof: <a href="https://github.com/SepehrQasemi/crm-food-trading/blob/main/docs/qa-proof-2026-03-11.md" target="_blank" rel="noopener">docs/qa-proof-2026-03-11.md</a></li>
-      </ul>
-    </article>
-  </section>
-
-  <section class="section">
-    <div class="section-title">
-      <h3>Next Projects</h3>
-      <span class="hint">Ready slots for upcoming additions</span>
-    </div>
-    <div class="grid">
-      <article class="card">
-        <h4>Project Slot 2</h4>
-        <p>Reserved for the next software project addition.</p>
-      </article>
-      <article class="card">
-        <h4>Project Slot 3</h4>
-        <p>Reserved for the next software project addition.</p>
-      </article>
-      <article class="card">
-        <h4>Project Slot 4</h4>
-        <p>Reserved for the next software project addition.</p>
-      </article>
-    </div>
   </section>
 </main>
 
 <footer class="footer">
   <div class="container">
-    &copy; <span id="year"></span> Sepehr Qasemi - Source code:
-    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio</a>
-    |
-    <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">CRM</a>
+    &copy; <span id="year"></span> Sepehr Qasemi |
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio Repo</a>
   </div>
 </footer>
 <script>
-  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-
-<script src="assets/js/main.js"></script>
 </body>
 </html>

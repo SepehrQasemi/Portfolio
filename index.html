@@ -7,46 +7,77 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-
 <header class="nav">
   <div class="container nav-inner">
-    <a class="brand" href="index.html" aria-label="Go to homepage">
-      <span class="brand-dot" aria-hidden="true"></span>
-      <span class="brand-main">Sepehr Portfolio</span>
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true"></span>
+      Sepehr Portfolio
     </a>
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="travaux.html">Work</a>
-      <a href="cours.html">Courses</a>
-      <a href="certifications.html">Certifications</a>
+      <a class="active" href="index.html">Home</a>
       <a href="projects.html">Projects</a>
-      <a href="deliverables.html">Deliverables</a>
-      <a href="ressources.html">Resources</a>
-      <a href="a-propos.html">About</a>
-      <button class="btn" type="button" data-theme-toggle aria-label="Toggle theme">Dark mode</button>
+      <a href="work.html">Work</a>
     </nav>
   </div>
 </header>
 
 <main class="container">
-  <section class="page-head">
-    <h1>Home</h1>
-    <p>Use the top navigation to browse projects, coursework, and deliverables.</p>
+  <section class="hero hero-home">
+    <p class="eyebrow">Software Portfolio</p>
+    <h1>Clean projects, clear outcomes.</h1>
+    <p>
+      I build practical software for real workflows. This portfolio highlights
+      my current production project (ATA CRM) and coursework deliverables for the module.
+    </p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="projects.html">Explore Projects</a>
+      <a class="btn" href="work.html">Open Course Work</a>
+    </div>
+  </section>
+
+  <section class="section grid two">
+    <article class="card">
+      <p class="kicker">Featured</p>
+      <h3>ATA CRM</h3>
+      <p>
+        B2B CRM for food products and additives trading:
+        companies, contacts, leads, tasks, emails, and analytics.
+      </p>
+      <div class="tag-row">
+        <span class="tag">Next.js</span>
+        <span class="tag">Supabase</span>
+        <span class="tag">Production Demo</span>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="projects/ata-crm.html">Open ATA CRM Profile</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <p class="kicker">Contact</p>
+      <h3>Get in touch</h3>
+      <p>
+        Email:
+        <a href="mailto:sepehrghasemi13@gmail.com">sepehrghasemi13@gmail.com</a>
+        <br />
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/sepehr-qasemi-aaa07b1b3/" target="_blank" rel="noopener">sepehr-qasemi-aaa07b1b3</a>
+      </p>
+      <div class="btn-row">
+        <a class="btn" href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio Repository</a>
+      </div>
+    </article>
   </section>
 </main>
 
 <footer class="footer">
   <div class="container">
-    &copy; <span id="year"></span> Sepehr Qasemi - Source code:
-    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio</a>
-    |
-    <a href="https://github.com/SepehrQasemi/crm-food-trading" target="_blank" rel="noopener">CRM</a>
+    &copy; <span id="year"></span> Sepehr Qasemi |
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio Repo</a>
   </div>
 </footer>
 <script>
-  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById("year").textContent = new Date().getFullYear();
 </script>
-
-<script src="assets/js/main.js"></script>
 </body>
 </html>
