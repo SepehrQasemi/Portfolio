@@ -13,9 +13,9 @@ Minimal static portfolio focused on course work and project delivery.
 - Portfolio (GitHub Pages): https://sepehrqasemi.github.io/Portfolio/
 - ATA CRM live demo: https://web-brown-delta-70.vercel.app
 - ATA CRM repository: https://github.com/SepehrQasemi/ATA-CRM
-- ATA CRM compliance checklist: https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/final-compliance-checklist.md
-- ATA CRM project report (FR): https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/rapport-projet-fr.md
-- ATA CRM QA proof: https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/qa-proof-2026-03-11.md
+- ATA CRM architecture diagram: https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/architecture.mmd
+- ATA CRM domain UML: https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/uml-domain.puml
+- ATA CRM use-case UML: https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/use-case.puml
 
 ## Project structure
 - `assets/css/style.css`: global minimal styles
