@@ -6,7 +6,7 @@ Minimal static portfolio focused on course work and project delivery.
 - `index.html` (`/Portfolio/`): Home
 - `projects.html` (`/Portfolio/projects.html`): Project list
 - `projects/ata-crm.html` (`/Portfolio/projects/ata-crm.html`): ATA CRM project profile
-- `work.html` (`/Portfolio/work.html`): Instructor assignments (Odoo + HubSpot)
+- `work.html` (`/Portfolio/work.html`): Instructor assignments (Odoo + HubSpot + Digital Marketing QCM)
 
 ## Core links
 - Portfolio repository: https://github.com/SepehrQasemi/Portfolio
