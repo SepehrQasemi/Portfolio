@@ -6,7 +6,10 @@ Minimal static portfolio focused on course work and project delivery.
 - `index.html` (`/Portfolio/`): Home
 - `projects.html` (`/Portfolio/projects.html`): Project list
 - `projects/ata-crm.html` (`/Portfolio/projects/ata-crm.html`): ATA CRM project profile
-- `work.html` (`/Portfolio/work.html`): Instructor assignments (Odoo + HubSpot + Digital Marketing QCM)
+- `work.html` (`/Portfolio/work.html`): Work library
+- `work/seance-6-funnel-marketing-kpi.html`: Seance 6 work profile
+- `work/odoo.html`: Odoo work profile
+- `work/hubspot.html`: HubSpot work profile
 
 ## Core links
 - Portfolio repository: https://github.com/SepehrQasemi/Portfolio
@@ -20,6 +23,7 @@ Minimal static portfolio focused on course work and project delivery.
 ## Project structure
 - `assets/css/style.css`: global minimal styles
 - `assets/files/`: assignment files and HubSpot assets
+- `work/`: dedicated work profile pages
 - `assets/screenshots/`: ATA CRM screenshots used in project profile
 - `.github/workflows/ci.yml`: required-page and content-sanity checks
 
