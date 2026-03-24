@@ -3,95 +3,101 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Work - Sepehr Portfolio</title>
+  <title data-i18n="meta.title">Work - Sepehr Portfolio</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body>
+<body data-page="work">
 <header class="nav">
   <div class="container nav-inner">
     <a class="brand" href="private-material-removed">
       <span class="brand-mark" aria-hidden="true"></span>
       Sepehr Portfolio
     </a>
-    <nav class="nav-links" aria-label="Main navigation">
-      <a href="private-material-removed">Home</a>
-      <a href="projects.html">Projects</a>
-      <a class="active" href="work.html">Work</a>
-    </nav>
+    <div class="nav-controls">
+      <nav class="nav-links" aria-label="Main navigation" data-i18n-attr="aria-label:nav.mainNavigation">
+        <a href="private-material-removed" data-i18n="nav.home">Home</a>
+        <a href="projects.html" data-i18n="nav.projects">Projects</a>
+        <a class="active" href="work.html" data-i18n="nav.work">Work</a>
+        <a href="certificates.html" data-i18n="nav.certificates">Certificates</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Switch language" data-i18n-attr="aria-label:languageSwitcher">
+        <span class="lang-switch-label" data-i18n="language">Language</span>
+        <button class="lang-btn active" type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button class="lang-btn" type="button" data-lang="fr" aria-pressed="false">FR</button>
+      </div>
+    </div>
   </div>
 </header>
 
 <main class="container">
   <section class="hero">
-    <p class="eyebrow">Work Library</p>
-    <h1>Work</h1>
-    <p>Dedicated work profiles with context, deliverables, and supporting files for each coursework submission.</p>
+    <p class="eyebrow" data-i18n="hero.eyebrow">Work Library</p>
+    <h1 data-i18n="hero.title">Work</h1>
+    <p data-i18n="hero.intro">Dedicated work profiles with context, deliverables, and supporting files for each coursework submission.</p>
   </section>
 
   <section class="section grid two">
     <article class="card">
-      <p class="kicker">Assignment</p>
-      <h3>S&eacute;ance 7 : S&eacute;curit&eacute; et communication digitale</h3>
-      <p>
-        Session notes focused on digital communication security, cyber risks,
-        phishing, account protection, GDPR, and secure communication practices.
+      <p class="kicker" data-i18n="session7.kicker">Assignment</p>
+      <h3 data-i18n="session7.title">Session 7: Security and Digital Communication</h3>
+      <p data-i18n="session7.description">
+        Session notes focused on digital communication security, cyber risks, phishing, account protection, GDPR, and secure communication practices.
       </p>
       <div class="tag-row">
-        <span class="tag">Cybersecurity</span>
-        <span class="tag">Communication</span>
-        <span class="tag">DOCX Pack</span>
+        <span class="tag" data-i18n="session7.tag1">Cybersecurity</span>
+        <span class="tag" data-i18n="session7.tag2">Communication</span>
+        <span class="tag" data-i18n="session7.tag3">DOCX Pack</span>
       </div>
       <div class="btn-row">
-        <a class="btn btn-primary" href="work/seance-7-securite-communication-digitale.html">View Work Profile</a>
+        <a class="btn btn-primary" href="work/seance-7-securite-communication-digitale.html" data-i18n="buttons.viewWorkProfile">View Work Profile</a>
       </div>
     </article>
 
     <article class="card">
-      <p class="kicker">Assignment</p>
-      <h3>S&eacute;ance 6 : Funnel Marketing et Indicateurs de Performance (KPI)</h3>
-      <p>
-        Session pack covering funnel marketing theory, KPI concepts, practice material,
-        the student exercise, spreadsheet work, and the corrected subject.
+      <p class="kicker" data-i18n="session6.kicker">Assignment</p>
+      <h3 data-i18n="session6.title">Session 6: Funnel Marketing and Performance Indicators (KPI)</h3>
+      <p data-i18n="session6.description">
+        Session pack covering funnel marketing theory, KPI concepts, practice material, the student exercise, spreadsheet work, and the corrected subject.
       </p>
       <div class="tag-row">
-        <span class="tag">Digital Marketing</span>
-        <span class="tag">Course Pack</span>
-        <span class="tag">PDF + ODS</span>
+        <span class="tag" data-i18n="session6.tag1">Digital Marketing</span>
+        <span class="tag" data-i18n="session6.tag2">Course Pack</span>
+        <span class="tag" data-i18n="session6.tag3">PDF + ODS</span>
       </div>
       <div class="btn-row">
-        <a class="btn btn-primary" href="work/seance-6-funnel-marketing-kpi.html">View Work Profile</a>
+        <a class="btn btn-primary" href="work/seance-6-funnel-marketing-kpi.html" data-i18n="buttons.viewWorkProfile">View Work Profile</a>
       </div>
     </article>
 
     <article class="card">
-      <p class="kicker">Assignment</p>
-      <h3>Odoo Workflow Assignment</h3>
-      <p>
+      <p class="kicker" data-i18n="odoo.kicker">Assignment</p>
+      <h3 data-i18n="odoo.title">Odoo Workflow Assignment</h3>
+      <p data-i18n="odoo.description">
         Practical work on procurement, inventory, sales process flow, and invoicing logic.
       </p>
       <div class="tag-row">
-        <span class="tag">ERP Workflow</span>
-        <span class="tag">Business Process</span>
-        <span class="tag">PDF + DOCX</span>
+        <span class="tag" data-i18n="odoo.tag1">ERP Workflow</span>
+        <span class="tag" data-i18n="odoo.tag2">Business Process</span>
+        <span class="tag" data-i18n="odoo.tag3">PDF + DOCX</span>
       </div>
       <div class="btn-row">
-        <a class="btn btn-primary" href="work/odoo.html">View Work Profile</a>
+        <a class="btn btn-primary" href="work/odoo.html" data-i18n="buttons.viewWorkProfile">View Work Profile</a>
       </div>
     </article>
 
     <article class="card">
-      <p class="kicker">Assignment</p>
-      <h3>HubSpot CRM Discovery Assignment</h3>
-      <p>
-        CRM discovery task with screenshot evidence and concise process analysis.
+      <p class="kicker" data-i18n="hubspot.kicker">Assignment</p>
+      <h3 data-i18n="hubspot.title">HubSpot CRM Discovery Assignment</h3>
+      <p data-i18n="hubspot.description">
+        CRM discovery task documented with screenshot evidence and concise process analysis.
       </p>
       <div class="tag-row">
-        <span class="tag">CRM Practice</span>
-        <span class="tag">Process Analysis</span>
-        <span class="tag">Screenshots</span>
+        <span class="tag" data-i18n="hubspot.tag1">CRM Practice</span>
+        <span class="tag" data-i18n="hubspot.tag2">Process Analysis</span>
+        <span class="tag" data-i18n="hubspot.tag3">Screenshots</span>
       </div>
       <div class="btn-row">
-        <a class="btn btn-primary" href="work/hubspot.html">View Work Profile</a>
+        <a class="btn btn-primary" href="work/hubspot.html" data-i18n="buttons.viewWorkProfile">View Work Profile</a>
       </div>
     </article>
   </section>
@@ -100,11 +106,9 @@
 <footer class="footer">
   <div class="container">
     &copy; <span id="year"></span> Sepehr Qasemi |
-    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Portfolio Repo</a>
+    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener" data-i18n="footer.repo">Portfolio Repository</a>
   </div>
 </footer>
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
+<script src="assets/js/i18n.js" defer></script>
 </body>
 </html>
