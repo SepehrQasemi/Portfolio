@@ -7,6 +7,7 @@ Minimal static portfolio focused on course work and project delivery.
 - `projects.html` (`/Portfolio/projects.html`): Project list
 - `projects/ata-crm.html` (`/Portfolio/projects/ata-crm.html`): ATA CRM project profile
 - `work.html` (`/Portfolio/work.html`): Work library
+- `work/seance-7-securite-communication-digitale.html`: Seance 7 work profile
 - `work/seance-6-funnel-marketing-kpi.html`: Seance 6 work profile
 - `work/odoo.html`: Odoo work profile
 - `work/hubspot.html`: HubSpot work profile
