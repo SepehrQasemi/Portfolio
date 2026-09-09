@@ -1,37 +1,26 @@
-# Sepehr Portfolio
+# Sepehr Qasemi — Portfolio
 
-Minimal static portfolio focused on course work and project delivery.
+Static, responsive portfolio for a Master MIAGE student focused on software development, data, AI-related software, and information systems.
 
-## Public pages
-- `index.html` (`/Portfolio/`): Home
-- `projects.html` (`/Portfolio/projects.html`): Project list
-- `projects/ata-crm.html` (`/Portfolio/projects/ata-crm.html`): ATA CRM project profile
-- `work.html` (`/Portfolio/work.html`): Work library
-- `work/seance-7-securite-communication-digitale.html`: Seance 7 work profile
-- `work/seance-6-funnel-marketing-kpi.html`: Seance 6 work profile
-- `work/odoo.html`: Odoo work profile
-- `work/hubspot.html`: HubSpot work profile
+## Selected projects
 
-## Core links
-- Portfolio repository: https://github.com/SepehrQasemi/Portfolio
-- Portfolio (GitHub Pages): https://sepehrqasemi.github.io/Portfolio/
-- ATA CRM live demo: https://web-brown-delta-70.vercel.app
-- ATA CRM repository: https://github.com/SepehrQasemi/ATA-CRM
-- ATA CRM architecture diagram: https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/architecture.mmd
-- ATA CRM domain UML: https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/uml-domain.puml
-- ATA CRM use-case UML: https://github.com/SepehrQasemi/ATA-CRM/blob/main/docs/use-case.puml
+- [CRM Platform](https://github.com/SepehrQasemi/crm-platform)
+- [MIAGE Thesis KG/RAG](https://github.com/SepehrQasemi/miage-thesis-kg-rag)
+- [Student Assistant Hub](https://github.com/SepehrQasemi/student-assistant-hub)
+- [B2B Catalog CMS](https://github.com/SepehrQasemi/b2b-catalog-cms)
 
-## Project structure
-- `assets/css/style.css`: global minimal styles
-- `work/`: dedicated work profile pages
-- `assets/screenshots/`: ATA CRM screenshots used in project profile
-- `.github/workflows/ci.yml`: required-page and content-sanity checks
+## Local preview
 
-## Local run
-Open `index.html` directly in a browser or run with VS Code Live Server.
+Open `index.html` or serve the repository with any static HTTP server.
+
+## Validation
+
+The CI workflow checks required pages, local asset references, and unfinished markers. No raw personal documents are included. The historical document cleanup is recorded outside this public repository.
 
 ## Deployment
-GitHub Pages from `main` branch, root folder (`/`).
 
-## Language
-Portfolio content is English-only in this version.
+GitHub Pages: https://sepehrqasemi.github.io/Portfolio/
+
+## Licensing
+
+No open-source license has been granted for the portfolio design or content.

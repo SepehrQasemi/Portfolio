@@ -3,85 +3,61 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title data-i18n="meta.title">Home - Sepehr Portfolio</title>
+  <meta name="description" content="Sepehr Qasemi — MIAGE master's student building software, data, AI-related and information-systems projects." />
+  <title>Sepehr Qasemi — Software, Data & Information Systems</title>
+  <script>document.documentElement.classList.add("js")</script>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body data-page="home">
-<header class="nav">
-  <div class="container nav-inner">
-    <a class="brand" href="index.html">
-      <span class="brand-mark" aria-hidden="true"></span>
-      Sepehr Portfolio
-    </a>
-    <div class="nav-controls">
-      <nav class="nav-links" aria-label="Main navigation" data-i18n-attr="aria-label:nav.mainNavigation">
-        <a class="active" href="index.html" data-i18n="nav.home">Home</a>
-        <a href="projects.html" data-i18n="nav.projects">Projects</a>
-        <a href="work.html" data-i18n="nav.work">Work</a>
-        <a href="certificates.html" data-i18n="nav.certificates">Certificates</a>
-      </nav>
-      <div class="lang-switch" role="group" aria-label="Switch language" data-i18n-attr="aria-label:languageSwitcher">
-        <span class="lang-switch-label" data-i18n="language">Language</span>
-        <button class="lang-btn active" type="button" data-lang="en" aria-pressed="true">EN</button>
-        <button class="lang-btn" type="button" data-lang="fr" aria-pressed="false">FR</button>
-      </div>
-    </div>
-  </div>
+<body class="portfolio-home">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="portfolio-nav">
+  <a class="portfolio-brand" href="index.html" aria-label="Sepehr Qasemi home">SQ</a>
+  <nav aria-label="Primary navigation">
+    <a href="#projects">Projects</a><a href="#areas">Technical areas</a><a href="#contact">Contact</a>
+  </nav>
 </header>
-
-<main class="container">
-  <section class="hero hero-home">
-    <p class="eyebrow" data-i18n="hero.eyebrow">Software Portfolio</p>
-    <h1 data-i18n="hero.title">Clean projects, clear outcomes.</h1>
-    <p data-i18n="hero.intro">
-      I build practical software for real workflows. This portfolio highlights ATA CRM, my production CRM project, alongside selected MIAGE coursework deliverables.
-    </p>
-    <div class="btn-row">
-      <a class="btn btn-primary" href="projects.html" data-i18n="buttons.exploreProjects">Explore Projects</a>
-      <a class="btn" href="work.html" data-i18n="buttons.openCourseWork">Open Coursework</a>
+<main id="main">
+  <section class="portfolio-hero" aria-labelledby="hero-title">
+    <div class="hero-inner reveal">
+      <p class="hero-name">Sepehr Qasemi</p>
+      <h1 id="hero-title">Software, data and systems built for real workflows.</h1>
+      <p class="hero-copy">Master MIAGE at Université Paris Nanterre. I build full-stack applications, local data tools, and explainable retrieval systems.</p>
+      <div class="hero-actions"><a class="action action-primary" href="#projects">View selected work</a><a class="action" href="https://github.com/SepehrQasemi" target="_blank" rel="noopener">GitHub profile</a></div>
     </div>
+    <figure class="hero-visual reveal" aria-label="CRM Platform dashboard preview"><img src="assets/screenshots/crm-platform-login.png" alt="CRM Platform dashboard with pipeline and reporting views" /></figure>
   </section>
 
-  <section class="section grid two">
-    <article class="card">
-      <p class="kicker" data-i18n="featured.kicker">Featured</p>
-      <h3 data-i18n="featured.title">ATA CRM</h3>
-      <p data-i18n="featured.description">
-        B2B CRM for food products and additives trading, covering companies, contacts, leads, tasks, emails, and analytics.
-      </p>
-      <div class="tag-row">
-        <span class="tag" data-i18n="featured.tag1">Next.js</span>
-        <span class="tag" data-i18n="featured.tag2">Supabase</span>
-        <span class="tag" data-i18n="featured.tag3">Production Demo</span>
-      </div>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="projects/ata-crm.html" data-i18n="buttons.openAtaProfile">Open ATA CRM Profile</a>
-      </div>
+  <section class="project-section" id="projects" aria-labelledby="projects-title">
+    <div class="section-intro reveal"><p class="section-index">01 / Selected work</p><h2 id="projects-title">Four projects, one systems perspective.</h2><p>Application engineering, data modeling, retrieval, and business process design.</p></div>
+
+    <article class="project-row reveal">
+      <a class="project-media" href="assets/screenshots/crm-platform-login.png"><img src="assets/screenshots/crm-platform-login.png" alt="CRM Platform dashboard" /></a>
+      <div class="project-copy"><p class="project-number">01 · Flagship full-stack system</p><h3>CRM Platform</h3><p>Full-stack CRM for companies, contacts, leads, tasks, email workflows, authorization, and operational reporting.</p><p class="stack">Next.js · TypeScript · Supabase · PostgreSQL · Vitest · Playwright</p><p class="status">Status: active · hosted demo available</p><div class="project-links"><a href="https://github.com/SepehrQasemi/crm-platform" target="_blank" rel="noopener">Repository ↗</a><a href="https://web-brown-delta-70.vercel.app" target="_blank" rel="noopener">Live demo ↗</a></div></div>
     </article>
 
-    <article class="card">
-      <p class="kicker" data-i18n="contact.kicker">Contact</p>
-      <h3 data-i18n="contact.title">Get in touch</h3>
-      <p>
-        <span data-i18n="labels.email">Email</span>:
-        <a href="mailto:sepehrghasemi13@gmail.com">sepehrghasemi13@gmail.com</a>
-        <br />
-        <span data-i18n="labels.linkedin">LinkedIn</span>:
-        <a href="https://www.linkedin.com/in/sepehr-qasemi-aaa07b1b3/" target="_blank" rel="noopener">sepehr-qasemi-aaa07b1b3</a>
-      </p>
-      <div class="btn-row">
-        <a class="btn" href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener" data-i18n="buttons.portfolioRepository">Portfolio Repository</a>
-      </div>
+    <article class="project-row project-row-reverse reveal">
+      <a class="project-media" href="assets/screenshots/thesis-architecture.svg"><img src="assets/screenshots/thesis-architecture.svg" alt="MIAGE thesis graph and retrieval architecture" /></a>
+      <div class="project-copy"><p class="project-number">02 · Data and knowledge graphs</p><h3>MIAGE Thesis KG/RAG</h3><p>Local pipeline for reviewing dissertation metadata, building a Neo4j graph, and returning traceable results with deterministic hash-based retrieval.</p><p class="stack">Python · FastAPI · Neo4j · PDF extraction · Docker · pytest</p><p class="status">Status: active · local research application</p><div class="project-links"><a href="https://github.com/SepehrQasemi/miage-thesis-kg-rag" target="_blank" rel="noopener">Repository ↗</a></div></div>
+    </article>
+
+    <article class="project-row reveal">
+      <a class="project-media" href="assets/screenshots/student-assistant-hub.png"><img src="assets/screenshots/student-assistant-hub.png" alt="Student Assistant Hub dashboard" /></a>
+      <div class="project-copy"><p class="project-number">03 · Offline-first productivity</p><h3>Student Assistant Hub</h3><p>Browser-based workspace for courses, files, calendars, deterministic summaries, study quizzes, and portable local backups.</p><p class="stack">Next.js · TypeScript · React · Dexie · IndexedDB · Vitest</p><p class="status">Status: active · local-first application</p><div class="project-links"><a href="https://github.com/SepehrQasemi/student-assistant-hub" target="_blank" rel="noopener">Repository ↗</a></div></div>
+    </article>
+
+    <article class="project-row project-row-reverse reveal">
+      <a class="project-media" href="assets/screenshots/b2b-catalog-cms.png"><img src="assets/screenshots/b2b-catalog-cms.png" alt="B2B Catalog CMS public site" /></a>
+      <div class="project-copy"><p class="project-number">04 · Multilingual content systems</p><h3>B2B Catalog CMS</h3><p>Multilingual product catalog and editorial CMS with publication states, localized SEO, inquiries, manufacturers, and protected admin workflows.</p><p class="stack">Next.js · TypeScript · Prisma · SQLite · next-intl · Vitest</p><p class="status">Status: active · local demonstration</p><div class="project-links"><a href="https://github.com/SepehrQasemi/b2b-catalog-cms" target="_blank" rel="noopener">Repository ↗</a></div></div>
     </article>
   </section>
+
+  <section class="areas" id="areas" aria-labelledby="areas-title">
+    <div class="section-intro reveal"><p class="section-index">02 / Technical areas</p><h2 id="areas-title">Broad by training. Coherent by design.</h2></div>
+    <div class="area-list reveal"><div><span>01</span><h3>Software development</h3><p>Type-safe web applications, APIs, authentication, testing, and delivery workflows.</p></div><div><span>02</span><h3>Data & AI-related software</h3><p>Extraction pipelines, knowledge graphs, transparent retrieval, and local model integration.</p></div><div><span>03</span><h3>Information systems</h3><p>Business entities, process modeling, roles, publication flows, and operational reporting.</p></div></div>
+  </section>
+
+  <section class="contact-section" id="contact"><div class="reveal"><p class="section-index">03 / Contact</p><h2>Let’s build useful systems.</h2><p>Open to internships and junior technical roles in France and Europe.</p><div class="hero-actions"><a class="action action-primary" href="mailto:sepehrghasemi13@gmail.com">Email</a><a class="action" href="https://www.linkedin.com/in/sepehr-qasemi-aaa07b1b3/" target="_blank" rel="noopener">LinkedIn ↗</a></div></div></section>
 </main>
-
-<footer class="footer">
-  <div class="container">
-    &copy; <span id="year"></span> Sepehr Qasemi |
-    <a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener" data-i18n="footer.repo">Portfolio Repository</a>
-  </div>
-</footer>
-<script src="assets/js/i18n.js" defer></script>
-</body>
-</html>
+<footer class="portfolio-footer"><span>© <span id="year"></span> Sepehr Qasemi</span><div><a href="projects.html">Project index</a><a href="work.html">Academic work</a><a href="certificates.html">Certificates</a><a href="https://github.com/SepehrQasemi/Portfolio" target="_blank" rel="noopener">Source ↗</a></div></footer>
+<script src="assets/js/site.js" defer></script>
+</body></html>

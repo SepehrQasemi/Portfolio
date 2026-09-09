@@ -18,7 +18,7 @@
         buttons: {
           exploreProjects: "Explore Projects",
           openCourseWork: "Open Coursework",
-          openAtaProfile: "Open ATA CRM Profile",
+          openCrmProfile: "Open CRM Platform Profile",
           portfolioRepository: "Portfolio Repository",
           viewProjectProfile: "View Project Profile",
           viewWorkProfile: "View Work Profile",
@@ -52,16 +52,16 @@
             eyebrow: "Software Portfolio",
             title: "Clean projects, clear outcomes.",
             intro:
-              "I build practical software for real workflows. This portfolio highlights ATA CRM, my production CRM project, alongside selected MIAGE coursework deliverables.",
+              "I build practical software for real workflows. This portfolio highlights CRM Platform, my full-stack CRM project, alongside selected MIAGE coursework deliverables.",
           },
           featured: {
             kicker: "Featured",
-            title: "ATA CRM",
+            title: "CRM Platform",
             description:
               "B2B CRM for food products and additives trading, covering companies, contacts, leads, tasks, emails, and analytics.",
             tag1: "Next.js",
             tag2: "Supabase",
-            tag3: "Production Demo",
+            tag3: "Live demo",
           },
           contact: {
             kicker: "Contact",
@@ -80,7 +80,7 @@
           },
           card: {
             kicker: "Project 01",
-            title: "ATA CRM v2",
+            title: "CRM Platform v2",
             description:
               "End-to-end CRM platform for B2B sales operations in the food ingredients trade.",
             tag1: "Version 2",
@@ -212,13 +212,13 @@
             tag3: "Technical engagement",
           },
         },
-        "project-ata-crm": {
+        "project-crm-platform": {
           meta: {
-            title: "ATA CRM v2 - Project Profile",
+            title: "CRM Platform v2 - Project Profile",
           },
           hero: {
             eyebrow: "Project Profile",
-            title: "ATA CRM v2",
+            title: "CRM Platform v2",
             intro:
               "Production-oriented CRM for food ingredients trading, built to manage companies, contacts, products, leads, tasks, and controlled email workflows.",
             tag1: "Version 2",
@@ -237,7 +237,7 @@
             kicker: "Solution",
             title: "Unified CRM workflow",
             description:
-              "ATA CRM centralizes pipeline flow, product-company relationships, scoped user permissions, and daily execution tooling in a single interface.",
+              "CRM Platform centralizes pipeline flow, product-company relationships, scoped user permissions, and daily execution tooling in a single interface.",
           },
           features: {
             kicker: "Core Features",
@@ -260,17 +260,17 @@
           screenshots: {
             title: "Screenshots",
             dashboard: "Dashboard",
-            dashboardAlt: "ATA CRM version 2 dashboard screen",
+            dashboardAlt: "CRM Platform version 2 dashboard screen",
             leads: "Leads and Pipeline",
-            leadsAlt: "ATA CRM version 2 leads screen",
+            leadsAlt: "CRM Platform version 2 leads screen",
             companies: "Companies",
-            companiesAlt: "ATA CRM version 2 companies screen",
+            companiesAlt: "CRM Platform version 2 companies screen",
             products: "Products",
-            productsAlt: "ATA CRM version 2 products screen",
+            productsAlt: "CRM Platform version 2 products screen",
             emails: "Emails",
-            emailsAlt: "ATA CRM version 2 emails screen",
+            emailsAlt: "CRM Platform version 2 emails screen",
             login: "Login",
-            loginAlt: "ATA CRM version 2 login screen in English",
+            loginAlt: "CRM Platform version 2 login screen in English",
           },
           docs: {
             kicker: "Technical Docs",
@@ -594,7 +594,7 @@
         buttons: {
           exploreProjects: "Explorer les projets",
           openCourseWork: "Ouvrir les travaux du cours",
-          openAtaProfile: "Ouvrir la fiche ATA CRM",
+          openCrmProfile: "Ouvrir la fiche CRM Platform",
           portfolioRepository: "Dépôt du portfolio",
           viewProjectProfile: "Voir la fiche projet",
           viewWorkProfile: "Voir la fiche de travail",
@@ -628,11 +628,11 @@
             eyebrow: "Portfolio logiciel",
             title: "Des projets propres, des résultats clairs.",
             intro:
-              "Je conçois des logiciels pratiques pour des usages réels. Ce portfolio met en avant ATA CRM, mon projet CRM en production, ainsi qu'une sélection de livrables de cours du master MIAGE.",
+              "Je conçois des logiciels pratiques pour des usages réels. Ce portfolio met en avant CRM Platform, mon projet CRM en production, ainsi qu'une sélection de livrables de cours du master MIAGE.",
           },
           featured: {
             kicker: "À la une",
-            title: "ATA CRM",
+            title: "CRM Platform",
             description:
               "CRM B2B pour le commerce de produits et d'additifs alimentaires, avec gestion des entreprises, contacts, prospects, tâches, e-mails et analyses.",
             tag1: "Next.js",
@@ -656,7 +656,7 @@
           },
           card: {
             kicker: "Projet 01",
-            title: "ATA CRM v2",
+            title: "CRM Platform v2",
             description:
               "Plateforme CRM de bout en bout pour les opérations commerciales B2B dans le secteur des ingrédients alimentaires.",
             tag1: "Version 2",
@@ -788,13 +788,13 @@
             tag3: "Implication technique",
           },
         },
-        "project-ata-crm": {
+        "project-crm-platform": {
           meta: {
-            title: "ATA CRM v2 - Fiche projet",
+            title: "CRM Platform v2 - Fiche projet",
           },
           hero: {
             eyebrow: "Fiche projet",
-            title: "ATA CRM v2",
+            title: "CRM Platform v2",
             intro:
               "CRM orienté production pour le commerce d'ingrédients alimentaires, conçu pour gérer les entreprises, contacts, produits, prospects, tâches et workflows e-mail contrôlés.",
             tag1: "Version 2",
@@ -813,7 +813,7 @@
             kicker: "Solution",
             title: "Un workflow CRM unifié",
             description:
-              "ATA CRM centralise le flux du pipeline, les relations produits-entreprises, les permissions utilisateurs ciblées et les outils d'exécution quotidienne dans une seule interface.",
+              "CRM Platform centralise le flux du pipeline, les relations produits-entreprises, les permissions utilisateurs ciblées et les outils d'exécution quotidienne dans une seule interface.",
           },
           features: {
             kicker: "Fonctionnalités clés",
@@ -836,17 +836,17 @@
           screenshots: {
             title: "Captures d'écran",
             dashboard: "Tableau de bord",
-            dashboardAlt: "Écran tableau de bord ATA CRM version 2",
+            dashboardAlt: "Écran tableau de bord CRM Platform version 2",
             leads: "Prospects et pipeline",
-            leadsAlt: "Écran prospects ATA CRM version 2",
+            leadsAlt: "Écran prospects CRM Platform version 2",
             companies: "Entreprises",
-            companiesAlt: "Écran entreprises ATA CRM version 2",
+            companiesAlt: "Écran entreprises CRM Platform version 2",
             products: "Produits",
-            productsAlt: "Écran produits ATA CRM version 2",
+            productsAlt: "Écran produits CRM Platform version 2",
             emails: "E-mails",
-            emailsAlt: "Écran e-mails ATA CRM version 2",
+            emailsAlt: "Écran e-mails CRM Platform version 2",
             login: "Connexion",
-            loginAlt: "Écran de connexion ATA CRM version 2 en anglais",
+            loginAlt: "Écran de connexion CRM Platform version 2 en anglais",
           },
           docs: {
             kicker: "Documentation technique",
