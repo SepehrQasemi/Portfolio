@@ -23,7 +23,6 @@ Minimal static portfolio focused on course work and project delivery.
 
 ## Project structure
 - `assets/css/style.css`: global minimal styles
-- `private-material-removed/`: assignment files and HubSpot assets
 - `work/`: dedicated work profile pages
 - `assets/screenshots/`: ATA CRM screenshots used in project profile
 - `.github/workflows/ci.yml`: required-page and content-sanity checks

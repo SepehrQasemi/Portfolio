@@ -174,15 +174,6 @@
             tag3: "Technical systems",
             tag4: "Network basics",
           },
-          ielts: {
-            kicker: "Language Certificate",
-            title: "IELTS Academic - Band 7.0 (C1)",
-            description:
-              "Official English language proficiency certificate with an Overall Band Score of 7.0 and CEFR level C1.",
-            tag1: "English proficiency",
-            tag2: "Academic English",
-            tag3: "Communication",
-          },
           modcup: {
             kicker: "Competition Award",
             title: "1st Place: Innovative Ideas Category, MODCUP Festival",
@@ -758,15 +749,6 @@
             tag2: "Infrastructure IT",
             tag3: "Systèmes techniques",
             tag4: "Bases réseau",
-          },
-          ielts: {
-            kicker: "Certificat de langue",
-            title: "IELTS Academic - Band 7.0 (C1)",
-            description:
-              "Certificat officiel de maîtrise de l'anglais avec un score global de 7.0 et un niveau C1 selon le CECRL.",
-            tag1: "Maîtrise de l'anglais",
-            tag2: "Anglais académique",
-            tag3: "Communication",
           },
           modcup: {
             kicker: "Distinction en concours",
