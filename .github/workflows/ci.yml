@@ -17,7 +17,7 @@ jobs:
         run: |
           set -euo pipefail
           required=(
-            "private-material-removed"
+            "index.html"
             "projects.html"
             "work.html"
             "projects/ata-crm.html"

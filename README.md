@@ -3,7 +3,7 @@
 Minimal static portfolio focused on course work and project delivery.
 
 ## Public pages
-- `private-material-removed` (`/Portfolio/`): Home
+- `index.html` (`/Portfolio/`): Home
 - `projects.html` (`/Portfolio/projects.html`): Project list
 - `projects/ata-crm.html` (`/Portfolio/projects/ata-crm.html`): ATA CRM project profile
 - `work.html` (`/Portfolio/work.html`): Work library
@@ -28,7 +28,7 @@ Minimal static portfolio focused on course work and project delivery.
 - `.github/workflows/ci.yml`: required-page and content-sanity checks
 
 ## Local run
-Open `private-material-removed` directly in a browser or run with VS Code Live Server.
+Open `index.html` directly in a browser or run with VS Code Live Server.
 
 ## Deployment
 GitHub Pages from `main` branch, root folder (`/`).
