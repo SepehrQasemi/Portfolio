@@ -5,37 +5,16 @@ on:
     branches: [main]
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   lint-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Validate required pages
-        shell: bash
-        run: |
-          set -euo pipefail
-          required=(
-            "index.html"
-            "projects.html"
-            "work.html"
-            "projects/ata-crm.html"
-            "README.md"
-          )
-          for f in "${required[@]}"; do
-            if [[ ! -f "$f" ]]; then
-              echo "Missing required file: $f"
-              exit 1
-            fi
-          done
-
-      - name: Check placeholders
-        shell: bash
-        run: |
-          set -euo pipefail
-          if grep -RInE "(completer|TODO|TBD|FIXME|placeholder)" \
-            --include="*.html" --include="*.md" .; then
-            echo "Placeholder text found. Please replace before merge."
-            exit 1
-          fi
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/check_site.py
